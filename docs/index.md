@@ -16,7 +16,7 @@ I am a mechanical engineering student at UNC Charlotte. This is my portfolio for
 
 
 ---------------------------------------
-[Resume]()
+[Resume](Resume_DerekH_2026_Scholarship_Resume.pdf)
 
 
 
