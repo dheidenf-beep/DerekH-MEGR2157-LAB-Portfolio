@@ -8,6 +8,8 @@ Having loved my time in the FIRST Robotics program, I have decided to pursue mec
 
 <img src="Robotics-2024-Pic1.jpg" width="200" align="left">
 
+_My FTC Team Thinking Hard_
+
 ## See what I've done this semester:
 
 [Projects Page](docs/portfolio-overview.md)
