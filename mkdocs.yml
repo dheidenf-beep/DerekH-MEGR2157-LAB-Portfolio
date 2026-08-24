@@ -4,6 +4,7 @@ site_description: Lab Design portfolio documentation
 theme:
   name: material
   palette:
+    sheme: slate
     primary: red
   features:
     - navigation.instant
