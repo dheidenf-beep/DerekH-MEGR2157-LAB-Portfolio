@@ -5,7 +5,7 @@ theme:
   name: material
   palette:
     scheme: slate
-    primary: red
+    primary: blue
   features:
     - navigation.instant
     - navigation.tracking
