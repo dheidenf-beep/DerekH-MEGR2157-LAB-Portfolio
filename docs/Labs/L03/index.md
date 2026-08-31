@@ -94,11 +94,10 @@ Your browser does not support the video tag.
 The printer starting on the models.
 
 
+![A02-Vid-Late](../A02-Vid-Late-Cut.mp4){: controls width="100%"}
 
-<video width="100%" controls playsinline>
-  <source src="../A02-Vid-Late-Cut.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Click here to view video if it doesn't load automatically](../A02-Vid-Late-Cut.mp4)
+
 
 
 
