@@ -95,10 +95,12 @@ The printer starting on the models.
 
 
 
-<video width="100%" controls>
-  <source src="https://github.com/user-attachments/assets/cb3be454-e528-4602-a282-db88bec01806" type="video/mp4">
-Your browser does not support the video tag.
+<video width="100%" controls playsinline>
+  <source src="../A02-Vid-Late-Cut.mp4" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
+
+
 
 The printer nearly finished with the the models
 
