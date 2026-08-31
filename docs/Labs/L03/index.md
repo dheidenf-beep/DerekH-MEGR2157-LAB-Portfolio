@@ -87,11 +87,19 @@ My team was composed of myself: Derek Heidenfelder, Brendan Spinner, Nathan Jabl
 
 
 <video width="100%" controls>
-  <source src="A02-Vid-Early.mov" type="video/mov">
+  <source src="main/docs/labs/L03/A02-Vid-Early.mov" type="video/mov">
 Your browser does not support the video tag.
 </video>
 
+https://github.com/user-attachments/assets/40f4ce1c-1356-4e6b-8435-5988b53c9b1b
 
+
+The printer starting on the models.
+
+
+
+
+https://github.com/user-attachments/assets/7078fa4c-a8b8-4476-a545-f5e8ae4983f8
 
 
 The printer nearly finished with the the models
