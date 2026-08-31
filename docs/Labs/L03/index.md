@@ -14,6 +14,12 @@ The objective of this lab was to print a small object that was downloaded from t
 
 The Keyart for Helldivers 2
 
+
+
+![Helldivers Skull Logo Print Complete](Helldivers2-Skull-Complete.jpg)
+
+The finished Print of the skull logo.
+
 ----------------------------------------------------------
 
 There were several different models I looked at, both on the homepage and searching for models pertaining to other games.
@@ -54,7 +60,7 @@ There were several different models I looked at, both on the homepage and search
 
 ## Preprocessing
 
-In order to prep the model to be printed, it needed to be loaded into the Prusa slicer and sliced. There wasn't as much alteration needed despite the image on the Printables Website displaying the model standing up. However, once the STL was loaded into the slicer, it was resting on one of the flat faces. The model was already very small with dimensions 18.7 x 18.2 x 1 mm, which was well within the 2 x 2 x 0.25 inch constraints meaning no scaling was needed. Due to the models very flat form, no supports were needed either and it could be printed as is. The big thing to keep track of was the fact that the printer used had PLA loaded into it versus PETG meaning the right setting had to be selected. The Helldivers 2 Skull Logo model alone took approximately one minute to print. However, the total print time for all of the models from my team was about twenty-five minutes. 
+In order to prep the model to be printed, it needed to be loaded into the Prusa slicer and sliced. There wasn't as much alteration needed despite the image on the Printables Website displaying the model standing up. However, once the STL was loaded into the slicer, it was resting on one of the flat faces. The model was already very small with dimensions 18.7 x 18.2 x 1 mm (about 0.73 x 0.73 x 0.04 inches), which was well within the 2 x 2 x 0.25 inch constraints meaning no scaling was needed. Due to the models very flat form, no supports were needed either and it could be printed as is. The big thing to keep track of was the fact that the printer used had PLA loaded into it versus PETG meaning the right setting had to be selected. The Helldivers 2 Skull Logo model alone took approximately one minute to print. However, the total print time for all of the models from my team was about twenty-five minutes. 
 
 
 ![Non Sliced Image](Nonsliced.png)
