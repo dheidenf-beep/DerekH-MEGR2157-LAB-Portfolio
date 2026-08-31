@@ -96,7 +96,7 @@ The printer starting on the models.
 
 
 <video width="100%" controls>
-  <source src="docs/Labs/L03/A02-Vid-Late-Cut.mp4" type="video/mp4">
+  <source src="A02-Vid-Late-Cut.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
