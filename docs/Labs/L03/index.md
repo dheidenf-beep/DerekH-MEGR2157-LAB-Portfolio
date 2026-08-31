@@ -6,41 +6,55 @@
 
 The objective of this lab was to print a small object that was downloaded from the [Printables Website](https://www.printables.com/). The small object I chose was the *skull logo from the videogame Helldivers 2*. Videogames are a big hobby of mine and I've always liked collecting or creating small memorabilia from my favorite games or interests. The STL file was downloaded directly from the Printables Website and imported into the Prusa Slicer.
 
+
+
+![Helldivers2-Keyart](Helldivers2-Keyart.webp)
+
+The Keyart for Helldivers 2
+
 There were several different models I looked at, both on the homepage and searching for models pertaining to other games.
 
 **The models from the homepage I was deciding between:**
 
 [Brachio Door Wedge](https://www.printables.com/model/1806678-brachio-door-wedge-stopper)
-*Brachio Image*
+
+![Brachio Door Wedge Image](Brachio_Door-Wedge.png)
 
 [Bag Clip Shark](https://www.printables.com/model/1798894-bag-clip-shark-with-lock-print-in-place)
-*Shark Clip image*
+
+![Shark Clip Image](Bag-Shark-Clip.png)
 
 [Sleeping Dragon Figure](https://www.printables.com/model/1814618-sleeping-dragon-low-poly-high-detail-miniature-dnd)
-*Dragon Image*
+
+![Dragon Image](Dragon.png)
 
 **Other Helldivers 2 Models:**
 
-[Helldivers Keyring](https://www.printables.com/model/797679-helldivers-keyring)
-*Helldivers Keyring Img*
+[Helldivers Keychain](https://www.printables.com/model/797679-helldivers-keyring)
+
+![Helldivers Keychain Image](Helldivers2-Keychain.png)
 
 [Helldivers 2 Capsule](https://www.printables.com/model/861029-helldivers-2-capsule)
-*Capsule Img*
 
-
-*Helldivers 2 Keyart Image*
+![Helldivers 2 Capsule Image](Helldivers2-Capsule.png)
 
 
 
 ## Preprocessing
 
-In order to prep the model to be printed, it needed to be loaded into the Prusa slicer and sliced. There wasn't as much alteration needed despite the image on the Printables Website displaying the model standing up. However, once the STL was loaded into the slicer, it was resting on one of the flat faces. The model was already very small with dimensions 18.7 x 18.2 x 1 mm, which was well within the 2 x 2 x 0.25 inch constraints meaning no scaling was needed. Due to the models very flat form, no supports were needed either and it could be printed as is. **_Mistkaes?_** The Helldivers 2 Skull Logo model alone took approximately one minute to print. However, the total print time for all of the models from my team was about twenty-five minutes. 
+In order to prep the model to be printed, it needed to be loaded into the Prusa slicer and sliced. There wasn't as much alteration needed despite the image on the Printables Website displaying the model standing up. However, once the STL was loaded into the slicer, it was resting on one of the flat faces. The model was already very small with dimensions 18.7 x 18.2 x 1 mm, which was well within the 2 x 2 x 0.25 inch constraints meaning no scaling was needed. Due to the models very flat form, no supports were needed either and it could be printed as is. The big thing to keep track of was the fact that the printer used had PLA loaded into it versus PETG meaning the right setting had to be selected. The Helldivers 2 Skull Logo model alone took approximately one minute to print. However, the total print time for all of the models from my team was about twenty-five minutes. 
 
-*Non Sliced Img*
+![Non Sliced Image](Nonsliced.png)
 
-*Img W/ Dims*
+All four models laid out on the Print bed.
 
-*Sliced Img*
+![Dimensions](Dimensions.png)
+
+Dimensions of the Model.
+
+![Sliced Image](Sliced-1.png)
+
+The models sliced
 
 
 
