@@ -87,7 +87,7 @@ My team was composed of myself: Derek Heidenfelder, Brendan Spinner, Nathan Jabl
 
 
 <video width="100%" controls>
-  <source src="A02-Vid-Early.mov" type="video/mov">
+  <source src="docs/Labs/L03/A02-Vid-Early.mov" type="video/mov">
 Your browser does not support the video tag.
 </video>
 
@@ -96,7 +96,7 @@ The printer starting on the models.
 
 
 <video width="100%" controls>
-  <source src="A02-Vid-Late.mov" type="video/mov">
+  <source src="docs/Labs/L03/A02-Vid-Late.mov" type="video/mov">
 Your browser does not support the video tag.
 </video>
 
