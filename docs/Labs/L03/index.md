@@ -94,9 +94,9 @@ Your browser does not support the video tag.
 The printer starting on the models.
 
 
-![A02-Vid-Late](../A02-Vid-Late-Cut.mp4){: controls width="100%"}
+![A02-Vid-Late](A02-Vid-Late-Cut.mp4){: controls width="100%"}
 
-[Click here to view video if it doesn't load automatically](../A02-Vid-Late-Cut.mp4)
+[Click here to view video if it doesn't load automatically](A02-Vid-Late-Cut.mp4)
 
 
 
