@@ -9,6 +9,7 @@ The objective of this lab was to print a small object that was downloaded from t
 
 
 ![Helldivers2-Keyart](Helldivers2-Keyart.webp)
+
 The Keyart for Helldivers 2
 
 ----------------------------------------------------------
@@ -74,16 +75,15 @@ The models sliced
 
 ## Printing
 
-**_Printer Number?_**
 My team was composed of myself: Derek Heidenfelder, Brendan Spinner, Nathan Jablonski, and Luz Ramos Saturnino. We each chose very different models but we tried to keep the print time down and managed to get a twenty-five minute print time. However, the true time was longer due to the printer needing to heat up and the first lay took three minutes to print. 
 
-![First Video early](A02-Vid-Early.mov)
+[First Video early](A02-Vid-Early.mov)
 
 The printer starting on the models.
 
 
 
-![Second Video Late](A02-Vid-Late.mov)
+[Second Video Late](A02-Vid-Late.mov)
 
 The printer nearly finished with the the models
 
