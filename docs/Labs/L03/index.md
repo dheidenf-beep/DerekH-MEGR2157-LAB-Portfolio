@@ -86,16 +86,12 @@ The models sliced
 My team was composed of myself: Derek Heidenfelder, Brendan Spinner, Nathan Jablonski, and Luz Ramos Saturnino. We each chose very different models but we tried to keep the print time down and managed to get a twenty-five minute print time. However, the true time was longer due to the printer needing to heat up and the first lay took three minutes to print. 
 
 
-
-https://github.com/user-attachments/assets/40f4ce1c-1356-4e6b-8435-5988b53c9b1b
-
-
-The printer starting on the models.
-
+<video width="100%" controls>
+  <source src="A02-Vid-Early.mov" type="video/mov">
+Your browser does not support the video tag.
+</video>
 
 
-
-https://github.com/user-attachments/assets/7078fa4c-a8b8-4476-a545-f5e8ae4983f8
 
 
 The printer nearly finished with the the models
