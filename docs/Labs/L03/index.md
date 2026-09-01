@@ -91,15 +91,18 @@ My team was composed of myself: Derek Heidenfelder, Brendan Spinner, Nathan Jabl
 Your browser does not support the video tag.
 </video>
 
+[Click here to view video if it doesn't load automatically](A02-Vid-Early.mov)
+
 The printer starting on the models.
 
 
-![A02-Vid-Late](A02-Vid-Late-Cut.mp4){: controls width="100%"}
+
+<video width="100%" controls>
+  <source src="docs/Labs/L03/A02-Vid-Late-Cut.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 [Click here to view video if it doesn't load automatically](A02-Vid-Late-Cut.mp4)
-
-
-
 
 The printer nearly finished with the the models
 
