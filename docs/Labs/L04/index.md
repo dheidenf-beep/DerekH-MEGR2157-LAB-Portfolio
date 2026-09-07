@@ -8,7 +8,7 @@ I chose to design the Penrose Triangle, otherwise know as the Impossible Tribar.
 
 ![Penrose Triangle](Penrose-Triangle.webp)
 
-[(Penrose Triangle](https://en.wikipedia.org/wiki/Penrose_triangle)
+[Penrose Triangle](https://en.wikipedia.org/wiki/Penrose_triangle)
 
 The Penrose Triangle is an optical illusion that depends entirely on being able to view the object from a certain perspective in 3 dimensions. However, the assignment limited the height of the designed object to be less than 0.5 inches tall and no more than 1.5 x 1.5 inches. I challenged myself to see if I could recreate a 3 dimensional optical illusion while keeping a similar effect. 
 
@@ -206,11 +206,11 @@ Your browser does not support the video tag.
 ![Penrose Image 2](Penrose-Print-Img-2.jpg)
 
 <video width="100%" controls>
-  <source src="docs/Labs/L04/Penrose-Print-Vid-1-Cut.mp4" type="video/mp4">
+  <source src="docs/Labs/L04/Penrose-Print-Vid-2-Cut.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-[Click here to view video if it doesn't load automatically](Penrose-Print-Vid-1-Cut.mp4)
+[Click here to view video if it doesn't load automatically](Penrose-Print-Vid-2-Cut.mp4)
 
 * The Print Finishing
 
@@ -218,7 +218,7 @@ Your browser does not support the video tag.
 
 ![Penrose Image 21](Penrose-Print-Img-21.jpg)
 
-![Penrose Image FINISHED](Penrose-Print-Img-12.jpg)
+![Penrose Image 23](Penrose-Print-Img-23.jpg)
 
 The finished model turned out better than I expected. The size of the model helped hide a lot of the seams I wasn't happy with and while the illusion isn't really there, you can tell what it's going for. Overall, I was very pleased with the end result. 
 
