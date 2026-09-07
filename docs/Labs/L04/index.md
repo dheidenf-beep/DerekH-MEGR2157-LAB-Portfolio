@@ -180,7 +180,47 @@ With the final changes made, the print time was still around 7 to 8 minutes with
 
 ## Printing
 
+The Penrose Triangle was sliced and the GCode was exported onto a USB Drive to be loaded onto the printer. The printing went smoothly and there were no issues. The print use PLA and was printed on printer 3. 
 
+![Penrose Image 2](Penrose-Print-Img-2.jpg)
+
+* The Print Preview
+
+<video width="100%" controls>
+  <source src="docs/Labs/L04/Penrose-Print-Vide-1-Cut.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+[Click here to view video if it doesn't load automatically](Penrose-Print-Vide-1-Cut.mp4)
+
+* The Printer starting on the model, beginning the infill.
+
+![Penrose Image 4](Penrose-Print-Img-4.jpg)
+
+![Penrose Image 11](Penrose-Print-Img-11.jpg)
+
+![Penrose Image 12](Penrose-Print-Img-12.jpg)
+
+* The printer about 25% done.
+
+![Penrose Image 2](Penrose-Print-Img-2.jpg)
+
+<video width="100%" controls>
+  <source src="docs/Labs/L04/Penrose-Print-Vide-1-Cut.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+[Click here to view video if it doesn't load automatically](Penrose-Print-Vide-1-Cut.mp4)
+
+* The Print Finishing
+
+![Penrose Image 19](Penrose-Print-Img-19.jpg)
+
+![Penrose Image 21](Penrose-Print-Img-21.jpg)
+
+![Penrose Image FINISHED](Penrose-Print-Img-12.jpg)
+
+The finished model turned out better than I expected. The size of the model helped hide a lot of the seams I wasn't happy with and while the illusion isn't really there, you can tell what it's going for. Overall, I was very pleased with the end result. 
 
 ## Communicate
 
