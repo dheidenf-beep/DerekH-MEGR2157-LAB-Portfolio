@@ -6,11 +6,14 @@ The goal of the third lab was to design and then print a small object of our cho
 
 I chose to design the Penrose Triangle, otherwise know as the Impossible Tribar. 
 
-![Penrose Triangle](Penrose-Triangle)
+![Penrose Triangle](Penrose-Triangle.webp)
+
+[(Penrose Triangle](https://en.wikipedia.org/wiki/Penrose_triangle)
 
 The Penrose Triangle is an optical illusion that depends entirely on being able to view the object from a certain perspective in 3 dimensions. However, the assignment limited the height of the designed object to be less than 0.5 inches tall and no more than 1.5 x 1.5 inches. I challenged myself to see if I could recreate a 3 dimensional optical illusion while keeping a similar effect. 
 
 ## Infill and Wall Thickness Research
+
 
 
 ## Design
@@ -153,6 +156,29 @@ With that, I called the design finished and moved it into the slicer for printin
 
 ## Preprocessing
 
+Once I finished with the design of the Penrose Triangle, I loaded the STL file into the Prusa Slicer. I had designed it to lay flat on the print bed so no change of orientation would be needed.
+
+![Penrose Screenshot 70](Penrose-Screenshot-70.png)
+
+![Penrose Screenshot 71](Penrose-Screenshot-71.png)
+
+The Penrose Triangle at the default size I made it was very small. It would've only taken four minutes to print with all of the default parameters. 
+
+I decided to scale it up by a factor of about 150% to make it a little more substantial and closer to the maximum parameters I could. This way, more infill would be needed and I would have more room to mess with the parameters. I mostly focused on not letting the height go over the max of 0.5 inches or 12.7 millimeters. I scaled it up so the height would be about 9 millimeters instead of 5. 
+
+![Penrose Screenshot 72](Penrose-Screenshot-72.png)
+
+![Penrose Screenshot 74](Penrose-Screenshot-74.png)
+
+![Penrose Screenshot 75](Penrose-Screenshot-75.png)
+
+This increased the print time for 4 minutes to 7 minutes and increased the time of the first layer by about 10 seconds. However, this was still with the default parameters. I needed to change the infill and wall thickness. 
+
+I increased the vertical wall thickness from the minimum of two shells to three shells. I wanted to make sure that the outside walls would have decent strength and be able to hold it's shape. I changed the infill from the default grid pattern to the stars pattern. The star pattern intrigued me because I had never seen it before using the Prusa Slicer and, after having researched it, it sounded like a good mix of the structural integrity and flexibility that were given by the triangle and honeycomb fill patterns. I increased the fill density to 25% to make sure there was enough for the surfaces to adhere to. 
+
+With the final changes made, the print time was still around 7 to 8 minutes with 36 seconds for the first layer.
+
+## Printing
 
 
 
