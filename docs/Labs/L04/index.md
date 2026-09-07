@@ -206,11 +206,11 @@ Your browser does not support the video tag.
 ![Penrose Image 2](Penrose-Print-Img-2.jpg)
 
 <video width="100%" controls>
-  <source src="docs/Labs/L04/Penrose-Print-Vide-1-Cut.mp4" type="video/mp4">
+  <source src="docs/Labs/L04/Penrose-Print-Vid-1-Cut.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-[Click here to view video if it doesn't load automatically](Penrose-Print-Vide-1-Cut.mp4)
+[Click here to view video if it doesn't load automatically](Penrose-Print-Vid-1-Cut.mp4)
 
 * The Print Finishing
 
