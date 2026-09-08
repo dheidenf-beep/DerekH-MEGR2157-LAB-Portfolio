@@ -1,4 +1,4 @@
-# A3 – Lab 2: Print Something Small
+# A2 – Lab 2: Print Something Small
 
 
 
