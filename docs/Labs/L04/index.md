@@ -14,7 +14,32 @@ The Penrose Triangle is an optical illusion that depends entirely on being able 
 
 ## Infill and Wall Thickness Research
 
+**Stars Infill**
 
+The Stars Infill pattern is made from the triangles infill pattern but shifted slightly to create six pointed stars. The Star Infill is closest to a mix between the triangles and honeycomb infill patterns and offers similar strength and material consumption to both. The only benefit I have found as to why one should use the Stars Pattern over the triangles or honeycomb patterns is for aesthetic reasons. The Stars Infill offers a more unique pattern but is practically the same in material cost and strength.
+
+**Hilbert Curve Infill**
+
+The Hilbert Curve Infill Pattern is one of the most unique infill patterns which utilizes a procedurally generated Hilbert Curve or Hilbert Space Filling Curve which is a continuous fractal space filling curve. The infill pattern ends up looking like a labyrinth made up of the infill lines. The Hilbert Curve infill has a very good strength to material use ratio that studies have found. Hilbert Curve infill is also good if the print is going to be filled with a liquid such as resin as it creates a continuous path to every section of the infill.
+
+**Line Infill**
+
+The Line Infill Pattern is very similar to the Cubic infill except the Line pattern uses parallel lines that have acute angles between them. The lines are printed such that there are no crossing lines printed in one layer versus every line being printed with the cubic pattern. This can help material not build up on the nozzle or the intersections of the lines since the lines never cross on the same layer. Depending on the application, the extra material built up from the cubic infill might cause issues which the line pattern solves.
+
+**How does percentage infill affect mechanical properties?**
+
+Different infill percentages affect mechanical properties in multiple ways. A higher infill percentage means more infill. This increases structural stability and rigidity but increases print time. Lower infill percentages have lower stabilty and higher flexibility and a quicker print time which is beneficial for some use cases.
+
+**How do different infill patterns affect mechanical properties?**
+
+Different infill patterns directly affect mechanical properties by changing the structural stabilty and rigidity. Some infill patterns are good for a quick print that isn't needed for a structural use case while some are better for flexibility and more use case specificy critera. 
+
+
+**Wall thickness** is vital to the structural stability of a 3D print. While the infill helps hold the structure together and gives it strength and flexibility, The outer walls provide the shape, give the infill and surfaces something to attach to, and is the first defense against external forces that act on the print. A higher wall thickness or more vertical wall layers create a more rigid structure that is more structurally secure. A print with thicker walls can withstand more force before breaking but does not like being bent or flexed. A thinner wall thickness or less vertical wall layers provides the opposite effect. The print will not have as good structural stability but will be able to flex more without snapping. The wall thickness depends entirely on the application and whether the structure should be structurally secure or able to be flexed.
+
+**Why use different wall thicknesses?**
+
+Wall thickness is vital to the structural stability of a 3D print. Generally, structural uses need thicker walls to better withstand the forces they are subjected to. If the structural element needs to remain rigid, thicker walls help the model to hold its shape. Thinner walls are good for a faster print and flexibility. While not providing much structural integrity, for something that isn't being exposed to external forces or needs to flex some, thinner walls generally perform better and provide a shorter print time.
 
 ## Design
 
@@ -164,7 +189,7 @@ Once I finished with the design of the Penrose Triangle, I loaded the STL file i
 
 The Penrose Triangle at the default size I made it was very small. It would've only taken four minutes to print with all of the default parameters. 
 
-I decided to scale it up by a factor of about 150% to make it a little more substantial and closer to the maximum parameters I could. This way, more infill would be needed and I would have more room to mess with the parameters. I mostly focused on not letting the height go over the max of 0.5 inches or 12.7 millimeters. I scaled it up so the height would be about 9 millimeters instead of 5. 
+I decided to scale it up by a factor of about 150% to make it a little more substantial and closer to the maximum parameters I could. This way, more infill would be needed and I would have more room to mess with the parameters. I mostly focused on not letting the height go over the max of 0.5 inches or 12.7 millimeters. I scaled it up so the height would be about 9 millimeters instead of 5 mm. 
 
 ![Penrose Screenshot 72](Penrose-Screenshot-72.png)
 
@@ -187,11 +212,11 @@ The Penrose Triangle was sliced and the GCode was exported onto a USB Drive to b
 * The Print Preview
 
 <video width="100%" controls>
-  <source src="docs/Labs/L04/Penrose-Print-Vide-1-Cut.mp4" type="video/mp4">
+  <source src="docs/Labs/L04/Penrose-Print-Vid-1-Cut.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-[Click here to view video if it doesn't load automatically](Penrose-Print-Vide-1-Cut.mp4)
+[Click here to view video if it doesn't load automatically](Penrose-Print-Vid-1-Cut.mp4)
 
 * The Printer starting on the model, beginning the infill.
 
@@ -222,5 +247,46 @@ Your browser does not support the video tag.
 
 The finished model turned out better than I expected. The size of the model helped hide a lot of the seams I wasn't happy with and while the illusion isn't really there, you can tell what it's going for. Overall, I was very pleased with the end result. 
 
-## Communicate
+## Lessons Learned
+
+This design project was a good exercise in trying to use a CAD software to design something that had weird angles and strange overlapping geometry. Learning how to use reference planes would've likely solved most of my problems. However, I chose to use trial and error regarding the order of extruded cuts and the surfaces on which I cut to achieve a design I was satisfied with. A constructive method might've been better too, but that wouldn't eliminate the weird angles. I did learn that I overestimated the scale of what I made. A lot of the finer angles and details are mostly lost in the 3D print due to the printer printing in a very geometric way. It lessons the visibility and details of the angles meaning a lot of the work was I put in was rendered obsolete when it was printed but the effort was still worth it to learn my limitations with CAD software and especially Solidworks. Learning about infills and wall thicknesses also taught me a lot about the use cases for different wall and infill parameters while also demonstrating to me once again the flexibility of 3D printing and additive manufacturing.
+
+The modeling process of the Penrose Triangle took around 6 hours.
+
+## Infill Questions
+
+**What would happen if you scaled this decision up? If your infill percentage or wall thickness choice were applied to a structural or safety-critical part instead of a small desk object, what would the consequences of getting it wrong be?**
+
+The parameters I chose mostly applied to the small print I was making. 3 layers of walls works fine for a small print but would not at all be advisable for something bigger, especially if it had a structural use. The same thought process was used for the infill. I knew it was a small print and I also wanted it to take less than 10 minutes due to the limited class time. Something larger and structural would necessitate a higher infill percentage than what I chose for my small design. The consequences of getting it wrong could be disastrous, mainly because an insufficient structural stability could put people in danger if it were to break.
+
+**What mistake did you catch, and what mistake might you not have caught? Detail an error you found and fixed. Then, more importantly: what's one flaw in your design or process that could have gone to print undetected, and what would need to change (in your process, not just this part) to catch it next time?**
+
+I caught most of the mistakes I made with the angles I was trying to achieve. There was a lot of working with weird angles in this print and I had to keep track of and it's likely I missed one. There is probably also a lip or dimension I missed that I didn't notice. However, I try my best to double check and make sure everything is correct but there is still likely something I missed.
+
+**How does this connect to a real product decision? Identify a consumer or industrial product where infill strategy, wall thickness, or material choice affects user safety (it doesn't have to be 3D printed). Briefly explain the parallel.**
+
+Houses and buildings have a similar process of creating what is essentially infill in the form of studs inside walls to give the building better structural stability and shape. Generally, while building a house, a thickness of wood to use for the walls is decided upon based on the size of the house and what will be inside. Then, studs and floor joists are put in to give shape to the floors and walls while providing more structure and stability. 3D printing with infill and wall thickness uses the same thought process, taking into account the forces the print will be subjected to and using that determine the best wall thickness and infill for the print.
+
+## Resources
+
+[Penrose Triangle](https://en.wikipedia.org/wiki/Penrose_triangle)
+
+[Prusa 3D Infill Patterns](https://help.prusa3d.com/article/infill-patterns_177130)
+
+[3D printing infill patterns to save time, material and money](https://realvision.pro/2022/10/05/3d-printing-infill-patterns/)
+
+[Hilbert Curve](https://en.wikipedia.org/wiki/Hilbert_curve)
+
+[Path planning for the infill of 3D printed parts utilizing Hilbert curves](https://www.sciencedirect.com/science/article/pii/S235197891830221X)
+
+[Infill in 3D Printing: Definition, Main Parts, and Different Types](https://xometry.pro/en/articles/3d-printing-infill/)
+
+[What is the Strongest Infill Pattern?]( https://theprintedfuture.com/what-is-the-strongest-infill-pattern/)
+
+[The effects of infill patterns on the mechanical properties of 3D printed PLA parts fabricated by FDM](https://www.researchgate.net/publication/359334862_The_effects_of_infill_patterns_on_the_mechanical_properties_of_3D_printed_PLA_parts_fabricated_by_FDM)
+
+[Designing Wall Thickness for 3D Printing: Minimums, Maximums, Best Practices](https://bigrep.com/posts/designing-wall-thickness-for-3d-printing/)
+
+[Wall Thickness in 3D Printing: Recommendations, Minimum and Maximum Values](https://www.raise3d.com/blog/3d-printing-wall-thickness/)
+
 
