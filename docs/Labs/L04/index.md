@@ -4,7 +4,7 @@
 
 The goal of the fourth lab was to design a CAD model to test a parameter and the limits of the Prusa Core One 3D Printers in the Duke Centennial 3D lab. 
 
-I chose to design a test for the limits of embossing or embedding text into a flat 3D print. 
+I chose to design a test for the limits of embossing or embedding text into a flat 3D print. Testing the width of the embossing seemed more feasible if I wanted to find the lowest limit, so that is what I tested.
 
 ## Recommended Text Embossing Limits
 
@@ -12,176 +12,188 @@ I used the ProtoLabs Design Rules for 3D printing documentation to retrieve my n
 
 **_INSERT DESIGN RULES PDF_**
 
-The recommended minimum limits for embossed details on 3D prints are to have a 0.6 mm wide gap and 2 mm depth. 
+The recommended minimum limits for embossed details on 3D prints are to have a 0.6 mm wide gap and 2 mm depth. I decided to use this as the starting point and determine how thin the engraving could get. I planned on creating a rectangle with six of the same engravings but each having a lower width by 0.1 mm. This meant the widths would step down from 0.6 to 0.5 to 0.4 mm etc. until reaching 0.1 mm wide. This way, I could see when the embossing would no longer be visible and would be filled in by the printer.
 
+### Prediction
+
+For the testing the embossing limits, my prediction was that the printer would be able to go down to about 0.4 mm. I didn't really have any reasoning behind it but the Prusa Core One Printers are very precise so I predicted it would be able to get to a finer level of detail. 
 
 ## CAD Design
 
-### Initial Desing
+### Mark 1 Design
 
-When starting the design in Solidworks, I figure it was going to be very easy. I was just going to have three different heights on the edges to try and mimic the rectangular prisms that the Penrose Triangle is composed of. I also wanted the edges to be angled to even further try and mimic the shape but I would later run into difficulties and would have to rethink things.
+For the initial design of the embossing test model, I started with a rectangle which would have the engravings in a straight line. I used the initial dimension of 20 mm by 40 mm with a height or thickness of 2.5 mm.
 
-To start, I made a 2D sketch of a triangle with a smaller triangle in the center for the cutout and extruded that up. I went for a more subtractive modeling approach over an additive one. 
+![Iteration 1 - Screenshot 1](Itrn-1-Screenshot-2.png)
 
-![Penrose Screenshot 4](Penrose-Screenshot-4.png)
+![Iteration 1 - Screenshot 2](Itrn-1-Screenshot-3.png)
 
-* The important thing I had to keep in mind was keeping the middle triangle equidistant from the edges of the outer triangle. I did this by using smart dimensions and constraints so the middle triangle would be perfectly in the center of all the edges of the outer triangle. 
+For the actual engraving, I figured the easiest thing to do would be a single letter or number. I decided to do a capital D because it's the first letter of my name and also it is a good test of the printers ability to print straight and curved lines. A capitol D is also relatively straight forward to create with lines as well.
 
+![Iteration 1 - Screenshot 3](Itrn-1-Screenshot-6.png)
 
+![Iteration 1 - Screenshot 4](Itrn-1-Screenshot-7.png)
 
-![Penrose Screenshot 5](Penrose-Screenshot-5.png)
+* I first created an "outer" D shape and scaled it so it would be 8 mm tall and 6 mm wide. However, I quickly increased the dimensions to a height of 10 mm, width of 7 mm, the semicircle had a radius of 5mm, and the small straight edge had a length of 2 mm.
 
-![Penrose Screenshot 7](Penrose-Screenshot-7.png)
+![Iteration 1 - Screenshot 5](Itrn-1-Screenshot-5.png)
 
-To split each section of the triangle in half, I used a bunch of midpoint lines so I would be able to get the exact center. 
+![Iteration 1 - Screenshot 6](Itrn-1-Screenshot-6.png)
 
-![Penrose Screenshot 8](Penrose-Screenshot-8.png)
+![Iteration 1 - Screenshot 7](Itrn-1-Screenshot-7.png)
 
-Using the construction lines as I guidance, I could then extrude cut half of the edges to try and mimic the illusion of the Penrose Triangle using depth.
+![Iteration 1 - Screenshot 8](Itrn-1-Screenshot-9.png)
 
-![Penrose Screenshot 10](Penrose-Screenshot-10.png)
+* I created an "Inner" D shape that was needed to make sure the extrude would actually be an engraving versus a big D shaped hole. The inner D was the same as the outer D except the distance from the edges would change on each iteration of the D's to achieve the smaller width I was testing. The first D had an engraving width of 0.6 mm meaning the edges of the inner D were 0.6 mm away from the edges of the outer D.
 
-![Penrose Screenshot 11](Penrose-Screenshot-11.png)
+![Iteration 1 - Screenshot 9](Itrn-1-Screenshot-10.png)
 
-![Penrose Screenshot 12](Penrose-Screenshot-12.png)
+![Iteration 1 - Screenshot 10](Itrn-1-Screenshot-11.png)
 
-![Penrose Screenshot 13](Penrose-Screenshot-13.png)
+![Iteration 1 - Screenshot 11](Itrn-1-Screenshot-12.png)
 
-![Penrose Screenshot 14](Penrose-Screenshot-14.png)
+* I realized the the height of the rectangle I initially made was too tall so I went back and edited the sketch to make it 12 mm tall which would give a distance of 1 mm from the edges of the D to the edges of the rectangle.
 
-![Penrose Screenshot 16](Penrose-Screenshot-16.png)
+* To create the other 5 D's, I used the "create linear pattern" command in Solidworks to copy the outer and inner D's five times. Although, initially, I miscounted and only copied 4 until I realized my mistake and added the sixth one.
 
-![Penrose Screenshot 20](Penrose-Screenshot-20.png)
+![Iteration 1 - Screenshot 12](Itrn-1-Screenshot-13.png)
 
-At this point, I decided to abandon the idea of making the edges slanted relative to each other to make them look like rectangular prisms. However, I did want the edges to look like they tapered off into each other and appear to disappear behind each other.
+![Iteration 1 - Screenshot 13](Itrn-1-Screenshot-14.png)
 
-However, I would quickly run into the reoccurring issue of this design, that being: weird angles. Everything was on a weird angle which made it very difficult to do anything geometrically. And I couldn't figure out how to make reference planes work with the angles. 
+![Iteration 1 - Screenshot 14](Itrn-1-Screenshot-15.png)
 
-![Penrose Screenshot 21](Penrose-Screenshot-21.png)
+* I made sure that each D had a distance of 1 mm between the edges. I then manually incremented the distance between the edges of each D, lowering the distance by 0.1 mm each time.
 
-![Penrose Screenshot 22](Penrose-Screenshot-22.png)
+![Iteration 1 - Screenshot 16](Itrn-1-Screenshot-16.png)
 
-![Penrose Screenshot 23](Penrose-Screenshot-23.png)
+![Iteration 1 - Screenshot 17](Itrn-1-Screenshot-17.png)
 
-![Penrose Screenshot 24](Penrose-Screenshot-24.png)
+![Iteration 1 - Screenshot 18](Itrn-1-Screenshot-18.png)
 
-* The moment I figured out these angles would cause me a massive headache.
+* I realized I needed one more copy for the 0.1 mm width test.
 
-![Penrose Screenshot 26](Penrose-Screenshot-26.png)
+![Iteration 1 - Screenshot 19](Itrn-1-Screenshot-19.png)
 
-I decided to keep the sketches on the outside edges because while the slants wouldn't be straight, it would at least be more consistent than trying to go from the end. 
+![Iteration 1 - Screenshot 20](Itrn-1-Screenshot-20.png)
 
-![Penrose Screenshot 27](Penrose-Screenshot-27.png)
+![Iteration 1 - Screenshot 21](Itrn-1-Screenshot-21.png)
 
-![Penrose Screenshot 28](Penrose-Screenshot-28.png)
+* Pictured above are the dimensions and widths of the engravings for all 6 of the D's.
 
-I didn't like the flat surface that was created at the corner so I tried redoing the sketches in the opposite order to make the edges and slants fit together better.
+* I then corrected the length of the rectangle so that all the D's would fit and there wouldn't be a floating sketch.
 
-![Penrose Screenshot 30](Penrose-Screenshot-30.png)
+![Iteration 1 - Screenshot 22](Itrn-1-Screenshot-22.png)
 
-![Penrose Screenshot 31](Penrose-Screenshot-31.png)
+* Next, I performed an emboss cut of 2 mm on all of the D's to put in the actual engravings.
 
-However, this created a lip where the two slants meet that I also didn't like. 
+![Iteration 1 - Screenshot 23](Itrn-1-Screenshot-23.png)
 
-![Penrose Screenshot 37](Penrose-Screenshot-37.png)
+![Iteration 1 - Screenshot 24](Itrn-1-Screenshot-24.png)
 
-I messed around with cut extrudes for a long time before I got to this which I was satisfied with. I also was spending too much time on this single corner and knew I had to move on. I worked on making the same slope on the other edges. 
+![Iteration 1 - Screenshot 25](Itrn-1-Screenshot-25.png)
 
-![Penrose Screenshot 38](Penrose-Screenshot-38.png)
+![Iteration 1 - Screenshot 26](Itrn-1-Screenshot-26.png)
 
-![Penrose Screenshot 39](Penrose-Screenshot-39.png)
+![Iteration 1 - Screenshot 27](Itrn-1-Screenshot-27.png)
 
-![Penrose Screenshot 40](Penrose-Screenshot-40.png)
+![Iteration 1 - Screenshot 28](Itrn-1-Screenshot-28.png)
 
-![Penrose Screenshot 42](Penrose-Screenshot-42.png)
+With the Engravings in place, I would move on to exporting the file as an STL and slicing it.
 
-* Here I raised the height of the sketch because if I had left it with the corners being coincident, I would have ended up with a flat face again. I tried to raise it to the height which would create a clean intersection between the edges when cut.
+### Mark 1 Preprocessing
 
-![Penrose Screenshot 44](Penrose-Screenshot-44.png)
+When I loaded the STL into the Prusa Slicer, I finally saw how small the model was. In the CAD software just looking at the numbers, I knew it would be small but I wasn't able to visualize it. And when I sliced it, I saw how close the print lines were in between the D's in the 1 mm gap. There was no room for any infill, and the D's would just be separated by two walls. 
 
-I decided to leave the lowest edge alone, because the lowest edge being flat worked with the perspective. Also, trying to get an extrusion in there would've been more difficulty than it was worth.
+![Iteration 1 - Screenshot 29](Itrn-1-Screenshot-29.png)
 
-Instead, I came back to the idea of have the edges slanted slightly along the length. To do this, at the corners, I would extrude cut a small piece out so that I could work on the edge at a 90 degree angle. That way, when I made a sketch to cut out the angle, it would actually be straight relative to the edge.
+![Iteration 1 - Screenshot 30](Itrn-1-Screenshot-30.png)
 
-![Penrose Screenshot 46](Penrose-Screenshot-46.png)
+![Iteration 1 - Screenshot 31](Itrn-1-Screenshot-31.png)
 
-![Penrose Screenshot 47](Penrose-Screenshot-47.png)
+I decided that the distances between the D's were two small and I wanted to give more space between each one and the edges.
 
-![Penrose Screenshot 49](Penrose-Screenshot-49.png)
+I tried to modify the pattern in Solidworks to increase the separation distance, but I kept running into constraint problems. In the end, I gave up and started over again.
 
-![Penrose Screenshot 51](Penrose-Screenshot-51.png)
+### Mark 2 Design
 
-* I went back and made it so the whole edge would be slanted rather than just half.
+For the mark 2 design of the embossing test model, I decided to created a larger rectangle and create a 2 x 3 grid of D's. Since I already had practice from the first model, this second one was much the same and went significantly faster. 
 
-![Penrose Screenshot 52](Penrose-Screenshot-52.png)
+* Once again, I started with a rectangle, this time one that was 26 x 27 x 3 mm.
 
-![Penrose Screenshot 53](Penrose-Screenshot-53.png)
+![Iteration 2 - Screenshot 1](Itrn-2-Screenshot-1.png)
 
-![Penrose Screenshot 54](Penrose-Screenshot-54.png)
+* I went with the same dimension for the D's (height of 10 mm, width of 7 mm, semicircle radius of 5mm, and the small straight edge length of 2 mm).
 
-![Penrose Screenshot 57](Penrose-Screenshot-57.png)
+![Iteration 2 - Screenshot 2](Itrn-2-Screenshot-2.png)
 
-I tried to do the same thing on the lower edge. However, I foresaw it not going well and decided to move on to the upper edge.
+* The primary change I made was that now the distance between the outer edge of the D and the edge of the rectangle was 2 mm.
 
-![Penrose Screenshot 55](Penrose-Screenshot-55.png)
+* I also realized I did my math wrong and I needed to increase the width of the base rectangle from 27 to 31 mm.
 
-![Penrose Screenshot 56](Penrose-Screenshot-56.png)
+![Iteration 2 - Screenshot 3](Itrn-2-Screenshot-3.png)
 
-I repeated the same process on the upper edge and then I used sketches and extrudes to rebuild the corners I cut out. Afterwards though, I realized that I could've left the corners cut out since the Penrose Triangle has flat corners, but it didn't occur to me at the time. 
+![Iteration 2 - Screenshot 4](Itrn-2-Screenshot-4.png)
 
-![Penrose Screenshot 59](Penrose-Screenshot-59.png)
+* I once again used the linear pattern command but this time, I had to create 3 copies in the x-direction and 2 in the y-direction.
 
-![Penrose Screenshot 60](Penrose-Screenshot-60.png)
+![Iteration 2 - Screenshot 5](Itrn-2-Screenshot-5.png)
 
-![Penrose Screenshot 61](Penrose-Screenshot-61.png)
+![Iteration 2 - Screenshot 6](Itrn-2-Screenshot-6.png)
 
-![Penrose Screenshot 62](Penrose-Screenshot-62.png)
+* I kept a distance of 2 mm between each of the D's as well.
 
-![Penrose Screenshot 63](Penrose-Screenshot-63.png)
+* Then, I repeated the process of creating "inner" D's starting with the top left and shrinking the distances between edges to create smaller and smaller engravings.
 
-The weird angles made filling in the corners more annoying than it should have been but with a little trial and error, I got the corners filled in.
+![Iteration 2 - Screenshot 7](Itrn-2-Screenshot-7.png)
 
-![Penrose Screenshot 64](Penrose-Screenshot-64.png)
+![Iteration 2 - Screenshot 8](Itrn-2-Screenshot-8.png)
 
-![Penrose Screenshot 65](Penrose-Screenshot-65.png)
+![Iteration 2 - Screenshot 9](Itrn-2-Screenshot-9.png)
 
-![Penrose Screenshot 66](Penrose-Screenshot-66.png)
+![Iteration 2 - Screenshot 10](Itrn-2-Screenshot-10.png)
 
-![Penrose Screenshot 67](Penrose-Screenshot-67.png)
+![Iteration 2 - Screenshot 11](Itrn-2-Screenshot-11.png)
 
-![Penrose Screenshot 68](Penrose-Screenshot-68.png)
+![Iteration 2 - Screenshot 12](Itrn-2-Screenshot-12.png)
 
-![Penrose Screenshot 69](Penrose-Screenshot-69.png)
+* Then, I extrude cut all the D's to create the engravings.
 
-With that, I called the design finished and moved it into the slicer for printing and preprocessing. 
+![Iteration 2 - Screenshot 13](Itrn-2-Screenshot-13.png)
 
-## Preprocessing
+![Iteration 2 - Screenshot 14](Itrn-2-Screenshot-14.png)
 
-Once I finished with the design of the Penrose Triangle, I loaded the STL file into the Prusa Slicer. I had designed it to lay flat on the print bed so no change of orientation would be needed.
+![Iteration 2 - Screenshot 15](Itrn-2-Screenshot-15.png)
 
-![Penrose Screenshot 70](Penrose-Screenshot-70.png)
+![Iteration 2 - Screenshot 16](Itrn-2-Screenshot-16.png)
 
-![Penrose Screenshot 71](Penrose-Screenshot-71.png)
+With the engravings in place on the mark 2 model, it was time to put it into the Prusa Slicer and see how it looked.
 
-The Penrose Triangle at the default size I made it was very small. It would've only taken four minutes to print with all of the default parameters. 
+### Preprocessing Mark 2 Design
 
-I decided to scale it up by a factor of about 150% to make it a little more substantial and closer to the maximum parameters I could. This way, more infill would be needed and I would have more room to mess with the parameters. I mostly focused on not letting the height go over the max of 0.5 inches or 12.7 millimeters. I scaled it up so the height would be about 9 millimeters instead of 5 mm. 
+The mark 2 design had much more space between the engravings and the edges which I felt better about. I decided to go with this version and I started changing some of the parameters.
 
-![Penrose Screenshot 72](Penrose-Screenshot-72.png)
+![Iteration 2 - Screenshot 17](Itrn-2-Screenshot-17.png)
 
-![Penrose Screenshot 74](Penrose-Screenshot-74.png)
+![Iteration 2 - Screenshot 18](Itrn-2-Screenshot-18.png)
 
-![Penrose Screenshot 75](Penrose-Screenshot-75.png)
+* The first parameter I changed was to change print mode from '0.20 mm SPEED' to '0.15 mm BALANCED.' I did this because I wanted some more precision over speed. And with the 0.15 mm extude width, I assumed that it would help the printer gain some precision when printing the thin gaps.
 
-This increased the print time for 4 minutes to 7 minutes and increased the time of the first layer by about 10 seconds. However, this was still with the default parameters. I needed to change the infill and wall thickness. 
+![Iteration 2 - Screenshot 19](Itrn-2-Screenshot-19.png)
 
-I increased the vertical wall thickness from the minimum of two shells to three shells. I wanted to make sure that the outside walls would have decent strength and be able to hold it's shape. I changed the infill from the default grid pattern to the stars pattern. The star pattern intrigued me because I had never seen it before using the Prusa Slicer and, after having researched it, it sounded like a good mix of the structural integrity and flexibility that were given by the triangle and honeycomb fill patterns. I increased the fill density to 25% to make sure there was enough for the surfaces to adhere to. 
+* The next settings I changed were the infill type and infill density. I changed the infill to the 'line' type because, based off of my research during the previous lab, the line infill collects less filament when printing the infill. This is because it only prints the lines going one direction each pass, it alternates between the two sets of perpendicular lines. The standard grid infill prints another layer of all the lines each pass. This can cause filament to collect at the intersections of the lines. I used the line infill to try and avoid the extra collection of infill that could potentially fill in the gaps.
 
-With the final changes made, the print time was still around 7 to 8 minutes with 36 seconds for the first layer.
+![Iteration 2 - Screenshot 20](Itrn-2-Screenshot-20.png)
+
+![Iteration 2 - Screenshot 21](Itrn-2-Screenshot-21.png)
+
+![Iteration 2 - Screenshot 22](Itrn-2-Screenshot-22.png)
+
+Those were all the parameters I changed for the print. With the model set and sliced, I could move on to printing it.
+
 
 ## Printing
 
-The Penrose Triangle was sliced and the GCode was exported onto a USB Drive to be loaded onto the printer. The printing went smoothly and there were no issues. The print use PLA and was printed on printer 3. 
+The Mark 2 test desing was sliced and the GCode was exported onto a USB Drive to be loaded onto the printer. The print use PLA and was printed on printer 7. I didn't notice any problems as the model printed.
 
 ![Penrose Image 2](Penrose-Print-Img-2.jpg)
 
