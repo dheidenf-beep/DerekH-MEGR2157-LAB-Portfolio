@@ -10,7 +10,9 @@ I chose to design a test for the limits of embossing or embedding text into a fl
 
 I used the ProtoLabs Design Rules for 3D printing documentation to retrieve my numbers for the limits of embossing or engraving details into a 3D print. 
 
-**_INSERT DESIGN RULES PDF_**
+<iframe src="PL_3DP_Design_Rules_EN.pdf" width="100%" height="4200px" type="application/pdf">
+  <p>Your browser does not support PDFs. <a href="PL_3DP_Design_Rules_EN">Download the PDF</a>.</p>
+</iframe>
 
 The recommended minimum limits for embossed details on 3D prints are to have a 0.6 mm wide gap and 2 mm depth. I decided to use this as the starting point and determine how thin the engraving could get. I planned on creating a rectangle with six of the same engravings but each having a lower width by 0.1 mm. This meant the widths would step down from 0.6 to 0.5 to 0.4 mm etc. until reaching 0.1 mm wide. This way, I could see when the embossing would no longer be visible and would be filled in by the printer.
 
@@ -251,10 +253,14 @@ This test just goes to show the precision capabilities of the Prusa Core One pri
 
 This project taught me a lot about the limits of 3D printers. Specifically, the more obscure limits. Embossing, engraving, or embedded detailing limits aren't as commonly discussed as the limits of overhand, strength, or adherence. So it was really interesting to me to see all the limits that exist. Whether or not those limits still stand likely needs to be tested. I tried to apply the knowledge I had gained in the last lab about the infill differences. I can't say for certain whether the infill helped or hurt the design because I didn't print a "control" version with all default standards but I didn't know about line infill until using the Prusa Slicer. This is my first time using a Prusa 3D printer and it has been very cool to learn what the printers are capable of. With Solidworks, I learned how to use the linear pattern command. It took me a while to figure it out but it was very useful when I did. Although, I clearly do not understand it perfectly because I had trouble going back and modifying an existing pattern. 
 
+[Download the STL](Emboss-Testing-Mechanism-2nd.STL)
+
 **Time Spent: 5 Hours**
 
 ## Resources
 
+[ProtoLabs Design Rules for 3D Printing](PL_3DP_Design_Rules_EN.pdf)
 
+[Prusa Slicer Line Infill Information](https://help.prusa3d.com/article/infill-patterns_177130)
 
 
