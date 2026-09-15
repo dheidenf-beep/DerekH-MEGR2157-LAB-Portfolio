@@ -10,7 +10,7 @@ I chose to design a test for the limits of embossing or embedding text into a fl
 
 I used the ProtoLabs Design Rules for 3D printing documentation to retrieve my numbers for the limits of embossing or engraving details into a 3D print. 
 
-<iframe src="PL_3DP_Design_Rules_EN.pdf" width="100%" height="200px" type="application/pdf">
+<iframe src="PL_3DP_Design_Rules_EN.pdf" width="100%" height="600px" type="application/pdf">
   <p>Your browser does not support PDFs. <a href="PL_3DP_Design_Rules_EN">Download the PDF</a>.</p>
 </iframe>
 
