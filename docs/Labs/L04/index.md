@@ -204,11 +204,11 @@ The Mark 2 test desing was sliced and the GCode was exported onto a USB Drive to
 * The Print preview and the printer starting on the first layer.
 
 <video width="100%" controls>
-  <source src="docs/Labs/L04/Penrose-Print-Vid-1-Cut.mp4" type="video/mp4">
+  <source src="A04-print-start-cut.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-[Click here to view video if it doesn't load automatically](Penrose-Print-Vid-1-Cut.mp4)
+[Click here to view video if it doesn't load automatically](A04-print-start-cut.mp4)
 
 * The Printer starting on the model, beginning the infill.
 
@@ -219,11 +219,11 @@ Your browser does not support the video tag.
 ![Print Image 5](Print-Picture-5.jpg)
 
 <video width="100%" controls>
-  <source src="docs/Labs/L04/Penrose-Print-Vid-2-Cut.mp4" type="video/mp4">
+  <source src="A04-print-end-cut.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-[Click here to view video if it doesn't load automatically](Penrose-Print-Vid-2-Cut.mp4)
+[Click here to view video if it doesn't load automatically](A04-print-end-cut.mp4)
 
 * The Print Finishing
 
@@ -245,7 +245,7 @@ The print turned out very well and now that it was finished, I could determine t
 
 The printer performed significantly better than expected. The printer maintained a complete gap up to 0.2 mm. When the printer reached 0.2 mm, the corners started to get filled in. The same happened on the 0.1 mm to a more noticeable degree. Still, on the straight and curved edges, the printer maintained a gap all the way to the 0.1 mm gap. Suffice it to say, my prediction of the printer starting to fail at the 0.4 mm mark has been proved very wrong. 
 
-**_INSERT FINIHSED IMGS_**
+![Finished Print](Print-finished.jpg)
 
 This test just goes to show the precision capabilities of the Prusa Core One printers and modern 3D printers at a whole. The printer managed to keep up to 0.1 mm of detail despite the standard the test is based off of is 6 times higher. I'm not sure exactly why the printer was able to exceed the limits that I was testing, I assume it has to do with the modernity of the printer and slicing software which allows the Prusa Core One's to achieve greater precision. While not perfect, the minimum limit this test indicates is a gap of 0.3 mm with a depth of 2 mm for embossing and engraved details. The printer can print details even smaller so long as the detail is straight lines as the printer struggles with corners at that scale. 
 
