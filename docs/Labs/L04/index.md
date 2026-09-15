@@ -195,9 +195,11 @@ Those were all the parameters I changed for the print. With the model set and sl
 
 The Mark 2 test desing was sliced and the GCode was exported onto a USB Drive to be loaded onto the printer. The print use PLA and was printed on printer 7. I didn't notice any problems as the model printed.
 
-![Penrose Image 2](Penrose-Print-Img-2.jpg)
+![Print Image 1](Print-Picture-1.jpg)
 
-* The Print Preview
+![Print Image 2](Print-Picture-2.jpg)
+
+* The Print preview and the printer starting on the first layer.
 
 <video width="100%" controls>
   <source src="docs/Labs/L04/Penrose-Print-Vid-1-Cut.mp4" type="video/mp4">
@@ -208,15 +210,11 @@ Your browser does not support the video tag.
 
 * The Printer starting on the model, beginning the infill.
 
-![Penrose Image 4](Penrose-Print-Img-4.jpg)
+![Print Image 4](Print-Picture-4.jpg)
 
-![Penrose Image 11](Penrose-Print-Img-11.jpg)
+* The printer about 50% done.
 
-![Penrose Image 12](Penrose-Print-Img-12.jpg)
-
-* The printer about 25% done.
-
-![Penrose Image 2](Penrose-Print-Img-2.jpg)
+![Print Image 5](Print-Picture-5.jpg)
 
 <video width="100%" controls>
   <source src="docs/Labs/L04/Penrose-Print-Vid-2-Cut.mp4" type="video/mp4">
@@ -227,40 +225,36 @@ Your browser does not support the video tag.
 
 * The Print Finishing
 
-![Penrose Image 19](Penrose-Print-Img-19.jpg)
+![Print Image 6](Print-Picture-6.jpg)
 
-![Penrose Image 21](Penrose-Print-Img-21.jpg)
+![Print Image 7](Print-Picture-7.jpg)
 
-![Penrose Image 23](Penrose-Print-Img-23.jpg)
+![Print Image 8](Print-Picture-8.jpg)
 
-The finished model turned out better than I expected. The size of the model helped hide a lot of the seams I wasn't happy with and while the illusion isn't really there, you can tell what it's going for. Overall, I was very pleased with the end result. 
+![Print Image 10](Print-Picture-10.jpg)
+
+![Print Image 9](Print-Picture-9.jpg)
+
+* The finished Print.
+
+The print turned out very well and now that it was finished, I could determine the results of the parameter test.
+
+## Parameter Test Results
+
+The printer performed significantly better than expected. The printer maintained a complete gap up to 0.2 mm. When the printer reached 0.2 mm, the corners started to get filled in. The same happened on the 0.1 mm to a more noticeable degree. Still, on the straight and curved edges, the printer maintained a gap all the way to the 0.1 mm gap. Suffice it to say, my prediction of the printer starting to fail at the 0.4 mm mark has been proved very wrong. 
+
+**_INSERT FINIHSED IMGS_**
+
+This test just goes to show the precision capabilities of the Prusa Core One printers and modern 3D printers at a whole. The printer managed to keep up to 0.1 mm of detail despite the standard the test is based off of is 6 times higher. I'm not sure exactly why the printer was able to exceed the limits that I was testing, I assume it has to do with the modernity of the printer and slicing software which allows the Prusa Core One's to achieve greater precision. While not perfect, the minimum limit this test indicates is a gap of 0.3 mm with a depth of 2 mm for embossing and engraved details. The printer can print details even smaller so long as the detail is straight lines as the printer struggles with corners at that scale. 
 
 ## Lessons Learned
 
-This design project was a good exercise in trying to use a CAD software to design something that had weird angles and strange overlapping geometry. Learning how to use reference planes would've likely solved most of my problems. However, I chose to use trial and error regarding the order of extruded cuts and the surfaces on which I cut to achieve a design I was satisfied with. A constructive method might've been better too, but that wouldn't eliminate the weird angles. I did learn that I overestimated the scale of what I made. A lot of the finer angles and details are mostly lost in the 3D print due to the printer printing in a very geometric way. It lessons the visibility and details of the angles meaning a lot of the work was I put in was rendered obsolete when it was printed but the effort was still worth it to learn my limitations with CAD software and especially Solidworks. Learning about infills and wall thicknesses also taught me a lot about the use cases for different wall and infill parameters while also demonstrating to me once again the flexibility of 3D printing and additive manufacturing.
+This project taught me a lot about the limits of 3D printers. Specifically, the more obscure limits. Embossing, engraving, or embedded detailing limits aren't as commonly discussed as the limits of overhand, strength, or adherence. So it was really interesting to me to see all the limits that exist. Whether or not those limits still stand likely needs to be tested. I tried to apply the knowledge I had gained in the last lab about the infill differences. I can't say for certain whether the infill helped or hurt the design because I didn't print a "control" version with all default standards but I didn't know about line infill until using the Prusa Slicer. This is my first time using a Prusa 3D printer and it has been very cool to learn what the printers are capable of. With Solidworks, I learned how to use the linear pattern command. It took me a while to figure it out but it was very useful when I did. Although, I clearly do not understand it perfectly because I had trouble going back and modifying an existing pattern. 
 
-The modeling process of the Penrose Triangle took around 6 hours.
+**Time Spent: 5 Hours**
 
 ## Resources
 
-[Penrose Triangle](https://en.wikipedia.org/wiki/Penrose_triangle)
 
-[Prusa 3D Infill Patterns](https://help.prusa3d.com/article/infill-patterns_177130)
-
-[3D printing infill patterns to save time, material and money](https://realvision.pro/2022/10/05/3d-printing-infill-patterns/)
-
-[Hilbert Curve](https://en.wikipedia.org/wiki/Hilbert_curve)
-
-[Path planning for the infill of 3D printed parts utilizing Hilbert curves](https://www.sciencedirect.com/science/article/pii/S235197891830221X)
-
-[Infill in 3D Printing: Definition, Main Parts, and Different Types](https://xometry.pro/en/articles/3d-printing-infill/)
-
-[What is the Strongest Infill Pattern?]( https://theprintedfuture.com/what-is-the-strongest-infill-pattern/)
-
-[The effects of infill patterns on the mechanical properties of 3D printed PLA parts fabricated by FDM](https://www.researchgate.net/publication/359334862_The_effects_of_infill_patterns_on_the_mechanical_properties_of_3D_printed_PLA_parts_fabricated_by_FDM)
-
-[Designing Wall Thickness for 3D Printing: Minimums, Maximums, Best Practices](https://bigrep.com/posts/designing-wall-thickness-for-3d-printing/)
-
-[Wall Thickness in 3D Printing: Recommendations, Minimum and Maximum Values](https://www.raise3d.com/blog/3d-printing-wall-thickness/)
 
 
