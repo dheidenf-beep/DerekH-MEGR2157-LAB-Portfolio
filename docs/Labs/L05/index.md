@@ -1,4 +1,3 @@
-<img width="4000" height="3000" alt="Iteration1Print-1" src="https://github.com/user-attachments/assets/4076f236-88b8-49dc-888b-d3256737015d" /># A5 – Design a Snap fit
 
 ## Objective
 
@@ -266,7 +265,12 @@ With all the parameters set, I got started printing the model.
 
 ### Iteration 1 Printing
 
-Iteration 1 of the Snap Fit was printed on printer 07 in the Duke Centennial print lab using Prusa PLA. There were no issues relating to the print and it proceeded smoothly over the two hours it took. 
+Iteration 1 of the Snap Fit was printed on printer 07 in the Duke Centennial print lab using Prusa PLA filament. There were no issues relating to the print and it proceeded smoothly over the two hours it took. 
+
+<video width="100%" controls>
+  <source src="A04-print-start-cut.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 ![Iteration 1 Print 1](Iteration1Print-1.jpg)
 
@@ -292,17 +296,25 @@ Iteration 1 of the Snap Fit was printed on printer 07 in the Duke Centennial pri
 
 ![Iteration 1 Print 12](Iteration1Print-12.jpg)
 
+<video width="100%" controls>
+  <source src="A04-print-start-cut.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 ![Iteration 1 Print 13](Iteration1Print-13.jpg)
 
 * The end result.
 
-The print had no issues and the end result looked like good. The supports were not hard to remove which was another concern.
+The print had no issues and the end result looked like good. The supports were not hard to remove which was another concern but worked out fine.
 
 
 ### Iteration 1 Evaluation
 
+This is where Iteration 1 ran into issues. The end result was very large for a snap fit and very inflexible. The deflection of 10 mm was very large for the rigidity of the model and one of the prongs snapped off the first time I tried testing it by putting the clip and flexure together. 
 
+![Iteration 1 Print 12](Iteration1Print-12.jpg)
 
+The flexure didn't even come close fitting together with the clip before snapping. This made me realize I needed to reevaluate the whole model and decrease some parameters to make the flexure less rigid.
 
 ## Snapfit Iteration 2
 
@@ -396,11 +408,55 @@ The print time for iteration 2 was about half as much as for iteration 1 at 1 ho
 
 ### Iteration 2 Printing
 
+Iteration 2 of the Snap Fit was printed on printer 10 in the Duke Centennial print lab using generic PLA filament. There were no issues relating to the print and it proceeded smoothly over the hour print time. 
 
+<video width="100%" controls>
+  <source src="Iteration2Video-1.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+![Iteration 2 Print 1](Iteration2Print-1.jpg)
+
+![Iteration 2 Print 2](Iteration2Print-2.jpg)
+
+![Iteration 2 Print 3](Iteration2Print-3.jpg)
+
+![Iteration 2 Print 4](Iteration2Print-4.jpg)
+
+![Iteration 2 Print 5](Iteration2Print-5.jpg)
+
+![Iteration 2 Print 6](Iteration2Print-6.jpg)
+
+<video width="100%" controls>
+  <source src="Iteration2Video-2.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<video width="100%" controls>
+  <source src="Iteration2Video-3.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+![Iteration 2 Print 7](Iteration2Print-7.jpg)
+
+![Iteration 2 Print 8](Iteration2Print-8.jpg)
+
+* The end result.
+
+The print had no issues and the end result looked like good. Significantly smaller than Iteration 1. The supports were not hard to remove which was another concern but worked out fine.
 
 
 ### Iteration 2 Evaluation
 
+The 2nd iteration of the snap fit did actually work. The pieces fit together, albeit with some difficulty. It took some force and some pliers to get them apart but neither piece broke in the process which I would call a success with respect to this lab.
+
+![Iteration 2 Print 9](Iteration2Print-9.jpg)
+
+![Iteration 2 Print 10](Iteration2Print-10.jpg)
+
+![Iteration 2 Print 11](Iteration2Print-11.jpg)
+
+With iteration 2 finished, I had successfully designed and created a working snap fit.
 
 
 ## Lessons Learned
