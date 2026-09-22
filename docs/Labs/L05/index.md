@@ -9,40 +9,43 @@ The goal of the fifth lab was to design mathematically and 3D print a snap fit. 
 
 ### Printing Orientation
 
+Printing orientation is the direction a print is pointing in relative to the axis. The three axis, x, y and z, each determine the the way the prints layers will be created. Research has determined the best ways to orient a print to achieve the best tensile strength, impact strength, and hardness. For reference, the XY plane is the plane parallel to the printing bed. The seams and layers of 3D prints are printed in the XY plane. The XZ or YZ planes are the planes making up the vertical portion of the print volume. The XZ and YZ planes are both perpendicular to the seams and print layers. [This paper](https://www.researchgate.net/publication/362937073_The_Effect_of_Printing_Orientation_on_the_Mechanical_Properties_of_FDM_3D_Printed_Parts) on researching the strength properties of FDM printing has determined that the models laying in the YZ plane or on the edge directions showed the best tensile strength because it maximizes the number of layers in the print. The XY orientation was a close second in terms of tensile strength and the ZX plane was very far behind. This study displays the importance of seams and how the prints perform better under tensile load if the load is parallel to the seams verses directly pulling perpendicular to the seams on the individual layers.
 
 
 ### Material Properties
 
 The material I chose for the snap fit was PLA. Using the [data sheet from the MATWEB website](https://www.matweb.com/search/DataSheet.aspx?MatGUID=ab96a4c0655c4018a8785ac4031b9278&ckck=1), I used the lowest values for the yield strength, elastic modulus, and ultimate shear strength. This gave me a value of 8 MPa for the yield strength, 0.00232 GPa or 2.32 MPa for the elastic modulus, and 0.160 MPa for the ultimate shear strength. I calculated the maximum safe values for the yield strength and ultimate shear strength using the safety factor of 3.5. This gave me maximum values of 2.28 MPa for the maximum stress and 0.046 MPa for the ultimate shear strength. I used the beam bending equations for deformation and stress in the Machinery's Handbook.
 
-**_INSRT SF WORK_**
+![SF Work](A05-page-2-SFWork.jpg)
 
 
 ## Calculations and CAD Parameters
 
 Before performing the calculations, I drew a lot of different versions of the snap fit to get an idea of sizing. And I also forgot I needed to use the deflection equation to find the length.
 
-**_INSRT INITIAL DREWINGS_**
+![Page 1 Drawings](A05-page-1-drawings.jpg)
 
 To start the calculations, I first solved the deflection equation for length. I also solved the maximum stress equation, plugging in the moment of inertia and the distance from the edges to neutral axis. After that, I solved for all the maximum values given the 3.5 safety factor.
 
-**_INSRT PG 1 WRK_**
+![Page 2 Full Work](A05-page-2-work.jpg)
 
 I chose a force of 2 lbf for my transverse force which I converted to 8.9 newtons. I chose an axial or shear force as 5lbf or 22.24 newtons. I initially chose the base of the flexure prongs to be 10mm and the height to be 5mm with a deflection of 5mm. I then solved for the length.
 
-**_Initial Len Wokr_**
+![Page 3 Initial Length Work](A05-page-3-initialLenWork.jpg)
 
 Using the Numbers I had, I calculated a length of 7.43mm, which was very small for the length of the prongs, especially since the height (thickness) was 5mm. I calculated the stress and it was under the maximum but I didn't want the length to be that short, so I redid the calculations this time with an increase b, h, and deflection values. 
 
-**_2nd try len work_**
+![Page 3 Second Length Work 1](A05-page-3-SecondLenWork-1.jpg)
+
+![Page 4 Second Length Work 2](A05-page-4-SecondLenWork-2.jpg)
 
 This second length the I calculated was 23.53 mm, which was better. It was under the maximum stress. However, for the shear stress value of the ledges on the prongs that hold the pieces together, the shear stress was very large which was making the length (x) that the clips needed to be very large. Once the length of clips started approaching 10mm, which was about half the length, I stopped and recalculated the length. This time, increasing the height once again
 
-**_3rd try len work_**
+![Page 5 Third Length Work](A05-page-5-ThirdLenWork.jpg)
 
 For the third try, I achieved a length of 35.30 mm and a needed clip length of 13 mm. I felt mostly satisfied with these measurements. Although the snap fit would be very large.
 
-**_Last Snap Fit Drewing_**
+![Page 6 Last Snap Fit Drawing](A05-page-6-LastDrawing.jpg)
 
 I kept these numbers and moved into parametrically designing the snap fit components. 
 
@@ -250,13 +253,13 @@ For the printing of the first iteration of the Snap fit model, I didn't change t
 
 ![Iteration1 60](SnapfitIteration1-60.png)
 
-For the infill, I kept it at the base 15%. I did change the infill pattern to be triangular because I figured some stability would be good. However, I wasn't sure how it would affect the flexibility. I kept the outer wall parameter at 2 outer perimeters because it was the recommended minimum in the Prusa Slicer and I didn't want to risk the model falling apart from having just one outer perimeter. To speed up the print a bit, I also switched from the "0.15 mm BALANCED" mode to the "0.20 mm SPEED" mode. This reduced the printing to from 2 hours 42 minutes to an hour and 34 minutes. The clip also required supports. I used organic supports and left the slicer to auto select where supports were needed.
+For the infill, I kept it at the base 15%. I did change the infill pattern to be triangular because I figured some stability would be good. However, I wasn't sure how it would affect the flexibility. I kept the outer wall parameter at 2 outer perimeters because it was the recommended minimum in the Prusa Slicer and I didn't want to risk the model falling apart from having just one outer perimeter. To speed up the print a bit, I also switched from the "0.15 mm BALANCED" mode to the "0.20 mm SPEED" mode. This reduced the printing to from 2 hours 42 minutes to an hour and 34 minutes. The clip also required supports due to the orientation making the outer walls the base causing the rest of the clip to float. The upper other wall also needed supports. I used organic supports and left the slicer to auto select where supports were needed.
 
 Originally, I wanted to print the clip facing upwards to reduce the amount of supports needed. 
 
 ![Iteration1 61](SnapfitIteration1-61.png)
 
-But I quickly realized that this would cause the axial load to be directly pulling on the seams of the clip which are the weakest part of FDM prints. To fix this, I turned the clip 90 degrees, which required more supports but meant the axial load would be acting parallel to the seams of the clip, which is the stronger direction of FDM prints.
+But I quickly realized that this would cause the axial load to be directly pulling on the seams of the clip which are the weakest part of FDM prints. To fix this, I turned the clip 90 degrees, which required more supports but meant the axial load would be acting parallel to the seams of the clip, which is the stronger direction of FDM prints for tensile strength.
 
 ![Iteration1 62](SnapfitIteration1-62.png)
 
@@ -268,7 +271,7 @@ With all the parameters set, I got started printing the model.
 Iteration 1 of the Snap Fit was printed on printer 07 in the Duke Centennial print lab using Prusa PLA filament. There were no issues relating to the print and it proceeded smoothly over the two hours it took. 
 
 <video width="100%" controls>
-  <source src="A04-print-start-cut.mp4" type="video/mp4">
+  <source src="Iteration1Video1-Edit.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
@@ -297,7 +300,7 @@ Your browser does not support the video tag.
 ![Iteration 1 Print 12](Iteration1Print-12.jpg)
 
 <video width="100%" controls>
-  <source src="A04-print-start-cut.mp4" type="video/mp4">
+  <source src="Iteration1Video2-Edit.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
@@ -312,7 +315,7 @@ The print had no issues and the end result looked like good. The supports were n
 
 This is where Iteration 1 ran into issues. The end result was very large for a snap fit and very inflexible. The deflection of 10 mm was very large for the rigidity of the model and one of the prongs snapped off the first time I tried testing it by putting the clip and flexure together. 
 
-![Iteration 1 Print 12](Iteration1Print-12.jpg)
+![Iteration 1 Print 14](Iteration1Print-14.jpg)
 
 The flexure didn't even come close fitting together with the clip before snapping. This made me realize I needed to reevaluate the whole model and decrease some parameters to make the flexure less rigid.
 
@@ -326,7 +329,7 @@ Instead, I used the new force I had settled on of 1.112055 newtons and lowered t
 
 I mostly found my numbers using Solidworks equations but I verified the work with my final numbers on paper. 
 
-**_FINAL CLAC WRK_**
+![Page 7 Final Calculations](A05-page-7-FinalCalcs.jpg)
 
 The new calculated work came out to be 31.51 mm.
 
@@ -411,7 +414,7 @@ The print time for iteration 2 was about half as much as for iteration 1 at 1 ho
 Iteration 2 of the Snap Fit was printed on printer 10 in the Duke Centennial print lab using generic PLA filament. There were no issues relating to the print and it proceeded smoothly over the hour print time. 
 
 <video width="100%" controls>
-  <source src="Iteration2Video-1.mp4" type="video/mp4">
+  <source src="Iteration2Video-1-Edit.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
@@ -428,12 +431,12 @@ Your browser does not support the video tag.
 ![Iteration 2 Print 6](Iteration2Print-6.jpg)
 
 <video width="100%" controls>
-  <source src="Iteration2Video-2.mp4" type="video/mp4">
+  <source src="Iteration2Video-2-Edit.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
 <video width="100%" controls>
-  <source src="Iteration2Video-3.mp4" type="video/mp4">
+  <source src="Iteration2Video-3-Edit.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
@@ -461,7 +464,10 @@ With iteration 2 finished, I had successfully designed and created a working sna
 
 ## Lessons Learned
 
+There was a lot I learned from this lab due to the complex process it makes you go through, at least compared to previous labs. The importance of print orientation with relation to strength I knew somewhat but not to this extent. And learning the difference between the strengths of different orientations was very fascinating because the strength of each orientation is very different. I also experimented and learned a lot to do with parametric modeling and constraining using equations. It makes iterating CAD models infinitely easier if when one value is changed, all of the others update automatically. I would've spent several more hours iterating than I did if it wasn't for having the equations. I definitely plan to take more advantage of the parametric features Solidworks or any CAD software has in the future. This lab also helped connect topics like length, transverse force, and deformation or deflection to each other. Playing with the equations and trying to find a happy medium made it more clear what factors actually effect each other. Like how I finally decided to lower my force because it is one of the primary variables for decreasing length.
 
+
+**Time Spent: 10 Hours**
 
 * [Snapfit Iteration 2 Clip Download](Snapfit-Clip-5-Walls.SLDPRT)
 
@@ -475,5 +481,9 @@ With iteration 2 finished, I had successfully designed and created a working sna
 
 ## Resources
 
+[The Effect of Printing Orientation on the Mechanical Properties of FDM 3D Printed Parts](https://www.researchgate.net/publication/362937073_The_Effect_of_Printing_Orientation_on_the_Mechanical_Properties_of_FDM_3D_Printed_Parts)
+
 Machinery's Handbook 32nd Edition
+
+[Matweb Material Properties of PLA](https://www.matweb.com/search/DataSheet.aspx?MatGUID=ab96a4c0655c4018a8785ac4031b9278&ckck=1)
 
