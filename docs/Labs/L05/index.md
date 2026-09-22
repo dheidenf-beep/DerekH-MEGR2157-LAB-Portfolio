@@ -377,10 +377,14 @@ The print time for iteration 2 was about half as much as for iteration 1 at 1 ho
 
 
 
-* [Snapfit Iteration 1 Download]()
+* [Snapfit Iteration 2 Clip Download](Snapfit-Clip-5-Walls.SLDPRT)
 
-* [Snapfit Iteration 2 Download]()
+* [Snapfit Iteration 2 Flexure Download](Snapfit-Flexure-4.SLDPRT)
 
+
+* [STL Snapfit Iteration 2 Clip Download](Snapfit-Clip-5-Walls.STL)
+
+* [STL Snapfit Iteration 2 Flexure Download](Snapfit-Flexure-4.STL)
 
 
 ## Resources
