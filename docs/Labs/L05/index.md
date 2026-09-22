@@ -1,4 +1,4 @@
-# A5 – Design a Snap fit
+<img width="4000" height="3000" alt="Iteration1Print-1" src="https://github.com/user-attachments/assets/4076f236-88b8-49dc-888b-d3256737015d" /># A5 – Design a Snap fit
 
 ## Objective
 
@@ -266,7 +266,37 @@ With all the parameters set, I got started printing the model.
 
 ### Iteration 1 Printing
 
+Iteration 1 of the Snap Fit was printed on printer 07 in the Duke Centennial print lab using Prusa PLA. There were no issues relating to the print and it proceeded smoothly over the two hours it took. 
 
+![Iteration 1 Print 1](Iteration1Print-1.jpg)
+
+![Iteration 1 Print 2](Iteration1Print-2.jpg)
+
+![Iteration 1 Print 3](Iteration1Print-3.jpg)
+
+![Iteration 1 Print 4](Iteration1Print-4.jpg)
+
+![Iteration 1 Print 5](Iteration1Print-5.jpg)
+
+![Iteration 1 Print 6](Iteration1Print-6.jpg)
+
+![Iteration 1 Print 7](Iteration1Print-7.jpg)
+
+![Iteration 1 Print 8](Iteration1Print-8.jpg)
+
+![Iteration 1 Print 9](Iteration1Print-9.jpg)
+
+![Iteration 1 Print 10](Iteration1Print-10.jpg)
+
+![Iteration 1 Print 11](Iteration1Print-11.jpg)
+
+![Iteration 1 Print 12](Iteration1Print-12.jpg)
+
+![Iteration 1 Print 13](Iteration1Print-13.jpg)
+
+* The end result.
+
+The print had no issues and the end result looked like good. The supports were not hard to remove which was another concern.
 
 
 ### Iteration 1 Evaluation
