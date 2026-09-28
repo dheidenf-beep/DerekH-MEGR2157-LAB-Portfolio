@@ -4,7 +4,7 @@
 
 The objective of lab 6 was to design a snap fit based on the parameters of a real object, in this case an old electrical component. The object I chose was an old, broken decora light switch. 
 
-![Switch Image](SwitchImg.jpg)
+![Switch Image](SwitchImg2.jpg)
 
 The assignment required the use of a caliper to take measurements of the chosen part and design the snap fit using those measurements. 
 
