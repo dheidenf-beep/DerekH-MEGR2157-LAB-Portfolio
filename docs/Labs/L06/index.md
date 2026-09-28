@@ -4,7 +4,7 @@
 
 The objective of lab 6 was to design a snap fit based on the parameters of a real object, in this case an old electrical component. The object I chose was an old, broken decora light switch. 
 
-**_INSRT IMG OF SWITCH_**
+![Switch Image](SwitchImg.jpg)
 
 The assignment required the use of a caliper to take measurements of the chosen part and design the snap fit using those measurements. 
 
@@ -254,10 +254,18 @@ The snap fit could support the switch and wasn't able to slide off, which was wh
 
 The primary lesson I learned for this lab was using a caliper and determining the measurements. Due to the weird shape of the switch I chose, I wasn't able to directly measure all of the distances I needed. This led me to measuring the full length and the distances I could to certain components, and then subtracting the distances to get the one I wanted. It took a lot of drawing, measuring, and trial and error but I eventually figured it out. I have also been trying to adapt using parametric equations and constraints in Solidworks for every measurement which has been cutting down on the CAD model finagling substantially and I will continue to do so for future CAD models due to how much easier it makes it.
 
+[Attempt 2 Solidworks File Download](Snapfit-Flexure-Outlet.SLDPRT)
+
+[Attempt 2 STL Download](Snapfit-Flexure-Outlet.STL)
+
+Time Spent: 5 Hours
+
 
 ## Resources
 
 Machinery's Handbook 32nd Edition
+
+[Matweb Material Properties of PLA](https://www.matweb.com/search/DataSheet.aspx?MatGUID=ab96a4c0655c4018a8785ac4031b9278&ckck=1)
 
 Solidworks
 
