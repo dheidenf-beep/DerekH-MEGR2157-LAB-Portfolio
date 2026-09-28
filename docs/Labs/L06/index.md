@@ -55,7 +55,7 @@ With all of the measurements taken, I could draw a picture and determine the dim
 
 Once I had the measurements, I could draw a picture. I drew a front and side view of the outlet to give me a better idea of the dimensions. 
 
-**_SWITCH DRTAWINFG ONE_**
+![Switch Drawing 1](SwitchDrawing1.jpg)
 
 For my snap fit, I wanted it to go from the back of the outlet, opposite of the switch side, and hook on to the ledges protruding out on both sides. Due to the shape of the switch, I couldn't directly measure the distance from the ledge to the bottom of the switch. This meant I had to use math to subtract the other distances I didn't need. On the bottom of the outlet, there are these parts or notches that stick out at the ends, which I didn't want the snap fit to go over. This meant I had to make it a smaller width to not collide with the notches. There is also a part that sticks up on the ledges in the middle that also made me reduce the width further. For the lip width, I ended up with a measurement of 0.1365 inches, the length was 1.229 inches, and the width ended up being 0.703 inches.
 
@@ -63,11 +63,15 @@ Using these measurements I knew the inside distance from the lip of the snap fit
 
 For this snap fit, I chose a transverse force of 0.25 lbf and a shear force of 1.5 lbf using a safety factor of 3 and PLA as my material.
 
-**_MATH_**
+![Switch Math 1](SwitchMath1.jpg)
+
+![Switch Math 2](SwitchMath2.jpg)
 
 For the height, I got a larger height requirement for the stiffness equation of 0.902 inches which is what I went with. For the length the lips needed to be, I solved for 0.139 inches based on the shear force I chose.
 
 I didn't use any tolerances. I used the exact measurements I got. I figured I would test it and if the exact measurements didn't work, I could reevaluate. When I was measuring with the caliper, I would always round up if the dial looked as though it was between two numbers. I figured this would give me the gap that was necessary for the part to fit around the switch snugly. 
+
+![Switch Drawing Last](SwitchFinalDrawing1.jpg)
 
 With the measurements acquired, I had everything I needed to know to start modeling.
 
@@ -191,7 +195,9 @@ This caused the snap fit to just fall off the switch. Since it wasn't really hol
 
 For the second attempt, I started back at the measurements. The width and dimensions of the lips of the snap fit were fine so that meant there was something wrong with the just the depth or length of the snap fit. I redrew the switch and redid the math for the length calculation.
 
-**_OINSERT DRAWING 2_**
+![Switch Drawing Last 2](SwitchFinalDrawing2.jpg)
+
+I used K and N as random variables to make it clearer to myself as to what I was looking for.
 
 It turns out, the 1.299 inches I had used for the length was the length of the whole switch, not just the distance from the ledge to the bottom, hence why it was too long. Redoing the calculation cave me a new length of 0.866 inches. I then plugged this number directly into solidworks to get the new numbers automatically.
 
