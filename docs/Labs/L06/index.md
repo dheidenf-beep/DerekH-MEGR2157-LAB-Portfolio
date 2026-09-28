@@ -148,7 +148,10 @@ The model was printed on printer 3 in the Duke Centennial print lab. I tried pri
 
 ![Attempt 1 Print Image 4](Attempt1Print4.jpg)
 
-**_VIDEO 1_**
+<video width="100%" controls>
+  <source src="Attempt1Video1.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 ![Attempt 1 Print Image 5](Attempt1Print5.jpg)
 
@@ -158,7 +161,10 @@ The model was printed on printer 3 in the Duke Centennial print lab. I tried pri
 
 ![Attempt 1 Print Image 9](Attempt1Print9.jpg)
 
-**_VDIDEO 2_**
+<video width="100%" controls>
+  <source src="Attempt1Video2.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 The print came out good. There weren't any issues with it visually. 
 
@@ -228,7 +234,10 @@ The same printer, printer 3, was used to print attempt 2. The printing went smoo
 
 ![Attempt 2 Printing 4](Attempt2Print4.jpg)
 
-**_ATTEMPT 2 VIDEO_**
+<video width="100%" controls>
+  <source src="Attempt2Video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 The model printed with no issues. 
 
@@ -254,9 +263,9 @@ The snap fit could support the switch and wasn't able to slide off, which was wh
 
 The primary lesson I learned for this lab was using a caliper and determining the measurements. Due to the weird shape of the switch I chose, I wasn't able to directly measure all of the distances I needed. This led me to measuring the full length and the distances I could to certain components, and then subtracting the distances to get the one I wanted. It took a lot of drawing, measuring, and trial and error but I eventually figured it out. I have also been trying to adapt using parametric equations and constraints in Solidworks for every measurement which has been cutting down on the CAD model finagling substantially and I will continue to do so for future CAD models due to how much easier it makes it.
 
-[Attempt 2 Solidworks File Download](Snapfit-Flexure-Outlet.SLDPRT)
+[Attempt 2 Solidworks File Download](Snapfit-Flexure-Outlet2.SLDPRT)
 
-[Attempt 2 STL Download](Snapfit-Flexure-Outlet.STL)
+[Attempt 2 STL Download](Snapfit-Flexure-Outlet2.STL)
 
 Time Spent: 5 Hours
 
