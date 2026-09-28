@@ -1,4 +1,4 @@
-<img width="960" height="564" alt="Screenshot 2026-09-25 130012" src="https://github.com/user-attachments/assets/fb977f6c-9733-401e-83cb-87ec04286b43" /># A6 – Design Fits For an Artifact
+# A6 – Design Fits For an Artifact
 
 ## Objective
 
