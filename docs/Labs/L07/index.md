@@ -28,7 +28,36 @@ For the tolerances for the gap between the cone and cone hole, I used the 0.4 mm
 <img width="515" height="59" alt="StartingFDMClearences" src="https://github.com/user-attachments/assets/4bc63a2d-e065-4360-b3c5-d0af77dca1c7" />
 
 All of the other measurements were chosen to be small but there was no math or underlying logic behind it. 
-For the thickness, I chose 5 mm. The length
+For the thickness, I chose 10 mm. Technically, the thickness I set was 5 mm, but I had a plan as to why it was half. The length I chose was 40 mm and both the base and height were 10 mm.
+
+I began with a rectangle for the main linkage body that would have the upside-down cone.
+
+<img width="960" height="564" alt="TestLinkage (2)" src="https://github.com/user-attachments/assets/dcae8a9d-16ea-4ba5-99f3-487709777acd" />
+
+I started this sketch on the right plane. I new I needed to sketch the cylinder in the center width wise of the linkage, so I wanted the right hand plane as my reference. This meant I needed the right hand plane intersecting the center of my rectangular prism. To do this, I extruded the sketch to be 5 mm thick on both sides of the plane, giving the total thickness of 10 mm.
+
+<img width="960" height="564" alt="TestLinkage (3)" src="https://github.com/user-attachments/assets/6fe8b8b4-acbb-4422-926d-eaef4dc53ca1" />
+
+<img width="960" height="564" alt="TestLinkage (4)" src="https://github.com/user-attachments/assets/bdf2dc33-64d4-4a0b-8f8f-21b647c432d8" />
+
+After the rectangular prism was extruded, I could then sketch the upside-down cylinder using the right plane as the reference. 
+
+<img width="960" height="564" alt="TestLinkage (6)" src="https://github.com/user-attachments/assets/3fe82039-9ee5-4629-ab82-ad3e17e91f92" />
+
+<img width="960" height="564" alt="TestLinkage (8)" src="https://github.com/user-attachments/assets/a6e151fe-1070-48e6-a47a-e98b5c05eff5" />
+
+I made the diameter of the base of the cone (technically the top) 8 mm, the bottom diameter 2 mm, and later a height of 6 mm with the center of the cone being 8 mm from the edge. I only realized later that I didn't have to sketch the whole cylinder since I needed to revolve it. But I just put in a centerline and revolved half the cone around it.
+
+<img width="960" height="564" alt="TestLinkage (9)" src="https://github.com/user-attachments/assets/36260e7e-df13-4e37-85b6-58918becfd5e" />
+
+<img width="960" height="564" alt="TestLinkage (10)" src="https://github.com/user-attachments/assets/da335ff7-ad50-40a6-9f22-2e0d71868392" />
+
+
+
+
+
+
+
 
 
 ### Prototype Preprocessing
