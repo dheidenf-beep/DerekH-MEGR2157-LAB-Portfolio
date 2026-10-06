@@ -174,6 +174,14 @@ Your browser does not support the video tag.
 The print didn't have any issues that I noticed, meaning it was time to test if the prototype worked.
 
 
+
+### Prototype Components
+
+| Component | Linkage Section A | Linkage Section B |
+|-----------|-------------------|-------------------|
+| Function | Conical Pin that Section B Rotates Around | Rotates around the Pin on Section A |
+| Creation | 3D Printed | 3D Printed |
+
 ### Prototype Evaluation
 
 <img width="4000" height="3000" alt="PrototypePicture (14)" src="https://github.com/user-attachments/assets/394758fd-9eaa-4866-841c-fffd5c1ac651" />
@@ -401,6 +409,14 @@ Your browser does not support the video tag.
 <img width="4000" height="3000" alt="Try2Picture (14)" src="https://github.com/user-attachments/assets/1ab45e60-1b81-4ee1-a0c2-b2d5a81fa9ef" />
 
 Once I had the final product, all that was left was to remove the supports and test it.
+
+
+### Final Linkage Components
+
+| Component | Linkage Section A | Linkage Section B | Linkage Section C | Linkage Section D |
+|-----------|-------------------|-------------------|-------------------|-------------------|
+| Function | 2 conical Pins that connect B and C | Hole and pin to Rotate around A and Connect to D | Half Length With a Pin and Hole to connect A and D | 2 Pins that connect B and C |
+| Creation | 3D Printed | 3D Printed | 3D Printed | 3D Printed |
 
 
 ### Final Linkage Evaluation
