@@ -5,7 +5,7 @@
 The objective of the seventh lab was to design and 3D print a working linkage that performs a distinct motion or task. 
 
 
-## Research
+## New Linkage Technology Research
 
 ### Miura-Origami Inspired Linkage
 
