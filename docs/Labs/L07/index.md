@@ -7,11 +7,51 @@ The objective of the seventh lab was to design and 3D print a working linkage th
 
 ## Research
 
-### _Linkage 1_
+### Miura-Origami Inspired Linkage
+
+The Miura-Origami inspired linkage is a linkage based off of the Miura-Origami fold. 
+
+<img width="2917" height="1176" alt="MiuraOrigamiLinkage" src="https://github.com/user-attachments/assets/955484e8-096a-466b-a464-d859f4ea2b73" />
+
+The Miura-Oragami inspired linkage is composed of 2 pairs of unequal length linking rods. The shape of the linkage gives it the unique property in that it only has 1 degree of freedom. Pulling or pushing on any of the vertices in the linkage automatically causes the entire linkage to fold or unfold. 
+
+The Miura-Orgami linkage is inherently more immune to vibrations but There have been studies into applying low-frequency vibration isolators to further allow it to reduce vibrations. This means the linkage could have potential applications in high-precision engineering or other precise industries such as suspensions or applications requiring low virations.
+
+**References**
+
+* Image Source: [Miura-origami inspired quasi-zero stiffness low-frequency vibration isolator](https://www.sciencedirect.com/science/article/pii/S0020740325003698#sec0001)
+
+* [A STUDY OF THE MULTI-STABILITY IN A NON-RIGID STACKED MIURA-ORIGAMI CELLULAR MECHANISM](https://par.nsf.gov/servlets/purl/10322848)
+
+* [Stiff deployable structures via coupling of thick Miura-ori tubes along creases](https://www.sciencedirect.com/science/article/pii/S0094114X24002787)
 
 
 
-### _Linkage 2_
+### Transforming Coiling Planar Linkage
+
+The Transforming Coiling Planar Linkage is a linkage mechanism designed to be able to expand into a deployable structure through a coiling motion versus a standard linear or radial expansion. The Transforming Coiling Planar Linkage uses the properties of four bar linkages in order to achieve localized angular changes. These designs are replicated to create a truss-like structure that is capable of coiling and uncoiling seamlessly with only 1 degree of freedom over the entire linkage.
+
+<img width="1593" height="1960" alt="TransformingCoilingPlanarLinkage" src="https://github.com/user-attachments/assets/22c92ee2-1dea-43db-8995-6871d5135070" />
+
+There are changes that can be made to the linkage to create different variations such as a linkage that is similar to an Archimedean Spiral depending on the lengths of the individual bars. 
+
+The primary benefit of the Transforming Coiling Planar Linkage is that it can coil into a circular space and expand in a straight line. 
+
+Some of the applications listed in the sources display its uses as a linear actuator and mechanism that could provide seating assistance. 
+
+<img width="1579" height="1265" alt="TransformingCoilingPlanarLinkage2" src="https://github.com/user-attachments/assets/c113002b-7bc3-464a-8a7d-8bfb49187c47" />
+
+The Transforming Coiling Planar Linkage has potential applications in a variety of fields such as manufacturing machines, robotics, and health.
+
+**References**
+
+* Images Source: [Kinematic analysis and experimental verification of transforming planar linkage mechanism](https://link.springer.com/article/10.1186/s40648-025-00289-3#Sec13)
+
+* [The design of coiling and uncoiling trusses using planar linkage modules](https://www.semanticscholar.org/paper/The-design-of-coiling-and-uncoiling-trusses-using-Liu-Wang/b4d4d229bfb2ceba20731750bc09d321997dc2b8)
+
+* [Automated synthesis of planar linkage mechanisms with diverse joint types via spring-connected link models and contrastive graph learning ](https://academic.oup.com/jcde/article/13/4/252/8554182)
+
+
 
 ## Print-in-Place Connection
 
@@ -387,9 +427,9 @@ I was very happy with the end result. It took a lot of work to get it to the fin
 
 * **Time: How many hours did the project take from start to finish? Break them down into research, CAD, slicing, printing, post-processing and assembly. How did the total compare with what you expected?**
 
-**Total Time:** 10 Hours
+**Total Time:** 14 Hours
 
-Reasearch: 
+Reasearch: New Linkages - 2 Hours
            3D Print Linkages - 2 Hours
 
 CAD Modeling: 4 Hours
@@ -415,28 +455,28 @@ The first print clearences I used of 0.4 mm worked well. However, it may be poss
 
 ## References
 
-[Seam position](https://help.prusa3d.com/article/seam-position_151069)
-
-[Elephant foot compensation](https://help.prusa3d.com/article/elephant-foot-compensation_114487)
-
-[Linkage Designs](https://mechanicaldesign101.com/linkage-designs/)
-
-[How to 3D Print Interlocking Parts and Assemblies](https://formlabs.com/blog/how-to-3d-print-interlocking-joints/)
-
-[Linkage 3D Files from Cults3D](https://cults3d.com/en/tags/linkage)
+[Center Finder Tool With Cabinet Pull Marking Companion](https://www.thingiverse.com/thing:7035457)
 
 [Expanding Star](https://www.printables.com/model/1000576-expanding-star)
 
-[Trammel of Archimedes](https://www.instructables.com/Trammel-of-Archimedes/)
+[Elephant foot compensation](https://help.prusa3d.com/article/elephant-foot-compensation_114487)
 
-* [Print In Place Scissor mechanism](https://www.reddit.com/r/3Dprinting/comments/xekbyx/print_in_place_scissor_mechanism/)
+[How to 3D Print Interlocking Parts and Assemblies](https://formlabs.com/blog/how-to-3d-print-interlocking-joints/)
 
-[3D Printed Scissor Lift Video](https://www.youtube.com/shorts/ZsNt6xYCAH8)
+[How To Make Articulated Print In Place Designs | Articulated Shark](https://www.youtube.com/watch?v=XV_pcDC14hE)
 
-[Center Finder Tool With Cabinet Pull Marking Companion](https://www.thingiverse.com/thing:7035457)
-
-[Preassembled scissor arm](https://www.thingiverse.com/thing:60216)
+[Linkage Designs](https://mechanicaldesign101.com/linkage-designs/)
 
 [Learn 15 Print-in-Place Mechanisms in 15 Minutes](https://www.youtube.com/watch?v=AAKsl8zW-Ds&t=2s)
 
-[How To Make Articulated Print In Place Designs | Articulated Shark](https://www.youtube.com/watch?v=XV_pcDC14hE)
+[Linkage 3D Files from Cults3D](https://cults3d.com/en/tags/linkage)
+
+[Print In Place Scissor mechanism](https://www.reddit.com/r/3Dprinting/comments/xekbyx/print_in_place_scissor_mechanism/)
+
+[3D Printed Scissor Lift Video](https://www.youtube.com/shorts/ZsNt6xYCAH8)
+
+[Preassembled scissor arm](https://www.thingiverse.com/thing:60216)
+
+[Seam position](https://help.prusa3d.com/article/seam-position_151069)
+
+[Trammel of Archimedes](https://www.instructables.com/Trammel-of-Archimedes/)
