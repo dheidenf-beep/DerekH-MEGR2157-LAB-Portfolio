@@ -6,7 +6,7 @@ The objective of the eighth lab is to design and create something useful.
 
 ## Reading and Writing
 
-
+According to the article, "[Great Questions Lead to Great Design: A Guide to the Design-thinking Process](https://www.toptal.com/designers/product-design/design-thinking-great-questions)", asking "smart questions" is a way to dig deeper into the root cause of an issue, foster creativity and new ideas, and encourage team collaboration. By asking "smart questions," designers can better understand the root cause of the issue they are trying to solve. Better understanding of the underlying issue helps inform solutions for the issue to be more accurate and applicable to the issue. Asking "smart questions" can also encourage creativity by asking the designer what they considered, what they didn't, and why they chose the solution that they did. Open ended questions are a good way to open up pathways to new ideas and innovations. And finally, "smart questions" are a way to encourage team collaboration and discussion on a design, what the design is for, why the design is needed, and different ways to consider approaching the design.
 
 ## Design Purpose
 
@@ -170,7 +170,7 @@ Your browser does not support the video tag.
 <img width="4000" height="3000" alt="QnC-Stand-Print-Attempt (14)" src="https://github.com/user-attachments/assets/d33373f1-8173-439f-a2a6-b9c215f1a1d2" />
 
 <video width="100%" controls>
-  <source src="QnC-Stand-Print-Attempt1-Vid-3.mp4" type="video/mp4">
+  <source src="QnC-Stand-Print-Attempt1-Vid-2.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
