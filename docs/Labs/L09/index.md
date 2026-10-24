@@ -12,9 +12,25 @@ The objective for this weeks lab was to use a laser cutter in the Super Fab Lab 
 
 Ideally 3 mm thick sheet of wood.
 
+Measured 1: 2.84 mm
+
+Measured 2: 2.70 mm
+
+Measured 3: 2.69 mm
+
+Average Thickness: 2.74 mm
+
+
+
+
 #### Kerf Measuring
 
 20 x 20 mm square
+
+Measured size:
+19.80 x 19.80 mm
+
+Calculated kerf: 
 
 #### Fit Testing
 
@@ -24,9 +40,9 @@ Ideally 3 mm thick sheet of wood.
 
 | Variable Name | Value Units (Measured or Chosen) | What it controls |
 |---------------|---------------|---------------|
-| Material Thickness | mm (Measured) (Step 1) | ------ |
-| Kerf | mm (Measured) (Step 2) | ------ |
-| Clearance | mm (Chosen) (Step 4) |---------------|
+| Material Thickness | 2.74 mm (Measured) (Step 1) | ------ |
+| Kerf | 0.2 mm (Measured) (Step 2) | ------ |
+| Clearance | -0.3 mm (Chosen) (Step 4) |---------------|
 | Slot Width | mm (Calculated / Kerf = D - measured width) (Step 2?) |---------------|
 |---------------|---------------|---------------|
 |---------------|---------------|---------------|
