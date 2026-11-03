@@ -25,7 +25,7 @@ According to several sources, SLA prints are normally known to shrink about 3% a
 
 For my design, I didn't have much time so I went very simple. I created a basic mechanism that resembles a switch or a lever, like a light switch. The fit just allows the lever arm to rotate about the axle on the base within the constraints set by the extra walls on the base.
 
-**_INSERT DREWING_**
+<img width="1675" height="1587" alt="LeverArmSLADrawing" src="https://github.com/user-attachments/assets/8122791c-5b16-41fb-a179-24ec689248c8" />
 
 ### RC2 Fit Applications
 
@@ -117,7 +117,7 @@ Once I had the new sized parts, I started experimenting with different ways to o
 
 <img width="960" height="564" alt="SLAFitScreenshot (35)" src="https://github.com/user-attachments/assets/fec42bb6-181f-4c8a-9587-9af4e67b95b4" />
 
-I decided on a 30 degree angle for the parts with mini brim and otherwise default settings. However, the print time was still over an hour and I didn't want to wait that long so I went through 6 size iterations to find one that had a more reasonable time to print.
+I decided on a 30 degree angle for the parts with mini brim and otherwise default settings for wall thickness and supports. However, the print time was still over an hour and I didn't want to wait that long so I went through 6 size iterations to find one that had a more reasonable time to print.
 
 <img width="960" height="564" alt="SLAFitScreenshot (36)" src="https://github.com/user-attachments/assets/53cd6001-db2d-4aa1-9c00-737a32f3b2fe" />
 
@@ -131,7 +131,8 @@ I decided on a 30 degree angle for the parts with mini brim and otherwise defaul
 
 <img width="960" height="564" alt="SLAFitScreenshot (42)" src="https://github.com/user-attachments/assets/6fb6b4ef-98f7-4e3a-8954-7d72c7b1b15d" />
 
-These were the final dimensions I settled on when I decided to give up since the print time was staying very constant around 30 minutes. Better than an hour or more, however. 
+These were the final dimensions I settled on when I decided to give up since the print time was staying very constant around 30 minutes. I primarily tried to get an orientation that was 
+close together to save time. And the 30 degree angle gave the model more horizontal width over height which would also make the print go faster. The model was also printed at the lowest resolution layer thickness at 0.100 mm thick per layer. This was also to try and save as much time as possible. 
 
 <img width="780" height="503" alt="SLAFitScreenshot (43)" src="https://github.com/user-attachments/assets/2282804c-7193-478a-867b-c865ec6a2d6b" />
 
@@ -140,35 +141,122 @@ With the final size and orientation, I moved on to actually printing it.
 
 ### Printing
 
-The first iteration was printed with gray resin. The print took around 30 minutes and a little under 3 milliliters of total resin. The final product was very small. 
+The first iteration was printed with V5 gray resin. The print took around 30 minutes and a little under 3 milliliters of total resin. It was printed on the SLA printer named "HallowedDodo." 
 
+<img width="3000" height="4000" alt="SLA-Photo (2)" src="https://github.com/user-attachments/assets/87e432bc-8341-4d50-a3ba-2d71cd837c60" />
+
+<img width="3000" height="4000" alt="SLA-Photo (4)" src="https://github.com/user-attachments/assets/c03a5e4e-0921-4752-823a-f1637e7fd532" />
+
+<img width="3000" height="4000" alt="SLA-Photo (7)" src="https://github.com/user-attachments/assets/a878b1c1-c9d7-4a0d-8caf-4b0f93f63cd6" />
+
+<img width="3000" height="4000" alt="SLA-Photo (9)" src="https://github.com/user-attachments/assets/8afc61dd-cc47-4371-baf5-8d426a91aeb5" />
+
+<img width="3000" height="4000" alt="SLA-Photo (11)" src="https://github.com/user-attachments/assets/99fab60a-897f-4e2e-8150-b0e5b00eaada" />
+
+The final product was very small. The cleaning and curing were not too big of an issue, just a little more time. About 5 minutes for the initial washing and 15 minutes for the curing. The surface finish and quality was good and smooth except for the areas with supports that ended up a little rougher once they were removed. 
+
+
+### Fit Test
 
 The fit ultimately did not end up working. I could not even force the parts together let alone slide the lever arm. I attempted to file down the shaft but after fifteen minutes, the parts still wouldn't fit together. This made me need to reassess and try printing the model again.
+
+<img width="3000" height="4000" alt="SLA-Photo (11)" src="https://github.com/user-attachments/assets/99fab60a-897f-4e2e-8150-b0e5b00eaada" />
+
+<img width="3000" height="4000" alt="SLA-Photo (12)" src="https://github.com/user-attachments/assets/f2c24a2b-3763-4851-9ffc-8288e198a704" />
+
+<img width="3000" height="4000" alt="SLA-Photo (13)" src="https://github.com/user-attachments/assets/d1cb5780-9588-48b0-99ab-b964a4aa6004" />
 
 
 ## Iteration 2
 
 ### CAD Design
 
+For the second iteration, I worked with a classmate who had made a coupon of different clearances in an attempt to figure out a good clearance for parts by testing since the numbers from the Machinery's Handbook were completely unreliable. For the a shaft with a nominal thickness of 0.25 inches, the tested thickness on the coupon was 12 thousands of an inch or 0.012 inches. This was quite an increase from the clearance I took from the Handbook which was 0.00085 inches. With this new number, I updated the dimensions of my model. I also decided to remove the variable accounting for shrinkage since the Preform Slicer claims to already account for it. 
+
+<img width="780" height="503" alt="SLAFitScreenshot (43)" src="https://github.com/user-attachments/assets/83fff890-84f6-48fe-8e67-65ea2af87cfe" />
+
+<img width="780" height="503" alt="SLAFitScreenshot (44)" src="https://github.com/user-attachments/assets/02d78359-6ba7-4e78-b3cf-9a25e5e73ce8" />
+
+With these final dimensions and clearances, I tried printing it again. 
 
 
 ### Preprocessing
 
+For the second iteration, I laid the parts parallel to the build plate, which saved about 10 minutes of print time bring it down to 24 minutes. I left the supports and wall thickness on default settings and used a mix of the auto-layout tool and manually moving the parts to try and find a decent configuration which made them close enough together. I used the "mini brim" setting again instead of a full brim, even though it didn't save much time, it saved about 0.5 ml of resin. 
+
+<img width="960" height="564" alt="SLAFitScreenshot (45)" src="https://github.com/user-attachments/assets/bff5434b-119a-4875-ba78-ae15184c9412" />
+
+<img width="960" height="564" alt="SLAFitScreenshot (46)" src="https://github.com/user-attachments/assets/4fc2e613-93ee-4f69-8272-51b1b3625cef" />
+
+<img width="960" height="564" alt="SLAFitScreenshot (47)" src="https://github.com/user-attachments/assets/a175a6c1-341f-4a40-a031-f1501ccf5066" />
+
+I once again chose the smallest layer thickness of 0.100 mm for time and since the model really didn't need to be detailed. 
 
 ### Printing
+
+For the second iteration print, the model was printed on the SLA print named "MaturelImpala." It was printed out of clear V5 resin with a print time of about 24 minutes. 
+
+<img width="3000" height="4000" alt="SLA-Photo (17)" src="https://github.com/user-attachments/assets/bf15f052-57ed-4985-901a-46e42a5cea56" />
+
+<img width="4000" height="3000" alt="SLA-Photo (20)" src="https://github.com/user-attachments/assets/02825ac2-6598-4984-9ae3-ede6b75dd599" />
+
+<img width="4000" height="3000" alt="SLA-Photo (23)" src="https://github.com/user-attachments/assets/fe5fd8a6-a198-4bc5-8d10-22dd439f849b" />
+
+The print turned out good again. I got a little worried when the model first came out of the resin because it was hard to tell whether it was actually there and complete because of the clear resin. The clear resin looked very nice and clear initially, but over time and with curing and processing, it became more cloudy and less transparent. The surface quality was good except for the parts the supports were attached to. I'm not sure if I was less careful with removing the supports the second time but the surface came out very rough and the supports took some extra material with it from the main body. 
+
+But with the supports removed after cleaning the model, the curing was the same taking 15 minutes to fully cure. 
+
+<img width="1631" height="1630" alt="SLA-Photo (26) -2" src="https://github.com/user-attachments/assets/40f230c6-272e-42dd-907f-1fe6db910220" />
+
+
+### Fit Test
+
+Once the post-processing was finish, I finally tried putting the parts together. 
+
+<img width="1631" height="1630" alt="SLA-Photo (26) -2" src="https://github.com/user-attachments/assets/32b4fd37-353e-492a-9b4c-2416f143269c" />
+
+<img width="4000" height="3000" alt="SLA-Photo (27)" src="https://github.com/user-attachments/assets/203a3ebf-ae03-4273-bd3b-e1fbcd990155" />
+
+The new clearance worked perfectly and the parts were able to slide together fairly easily. The lever arm could turn around the axle but wasn't too lose that it would wildly spin. 
+
+<img width="4000" height="3000" alt="SLA-Photo (28)" src="https://github.com/user-attachments/assets/2c4b890f-1b97-4e90-a9e5-2feeb22db120" />
+
+<img width="4000" height="3000" alt="SLA-Photo (29)" src="https://github.com/user-attachments/assets/531a5d87-c3d9-4c10-b361-25565e55e6f0" />
+
+Measuring the hole and shaft with a caliper gave a dimension for the hole of 0.252 inches and the shaft 0.241 inches. Subtracting these measurements gives a clearance of 0.011 inches. 
+
+<img width="3000" height="4000" alt="SLA-Photo (30)" src="https://github.com/user-attachments/assets/75423f61-f500-4ec1-a279-09459dbafdd3" />
+
+<img width="3000" height="4000" alt="SLA-Photo (33)" src="https://github.com/user-attachments/assets/59fc72e1-e5f3-4b1b-bcb0-046e5e7a2ef3" />
+
+A clearance of 0.011 inches is technically not an RC 2 sliding fit for a nominal 0.25 inch shaft since the clearance ranges from 0.2 to 0.85 thousandths of an inch according to the Machinery's Handbook. However, the dimensions and clearances are meant for metals and not anything related to resin and additive manufacturing. And the fit I ended up with acts like I would expect an RC 2 sliding fit to act, given the description. 
 
 
 ## Lessons Learned
 
-**Time Spent: **
+This assignment was more annoying than previous assignments. There was little or no guidance on how to achieve a proper fit since the numbers in the Machinery's Handbook are meant for metals. This gave me and my classmates very little to work with especially considering the conflicting information that we found during our research. If it wasn't for my classmate who made the fit coupon, I doubt I would have been able to make a working fit. I know now that the only way to really figure out the appropriate clearances for an SLA print are to test. There really is no other reliable way since every printer and resin is different. I also learned about the resin printing process, cleaning, and curing. And how SLA is more work than FDM. The differences in print times were crazy to me. To print my model on an FDM printer likely would've taken less than 5 minutes without needing any curing or cleaning. This makes SLA an even more niche manufacturing method for very specialized parts that only a resin like material is suited for.
+
+**Time Spent: ** 8 Hours
 
 ### CAD File Downloads
 
-[Lever Base]()
+[Lever Base Solidworks Model](SLALeverBase7.SLDPRT)
 
-[Lever Arm]()
+[Lever Base STL](SLALeverBase8.STL)
 
-[Lever Assembly]()
+[Lever Arm Solidworks Model](SLALeverArm5.SLDPRT)
+
+[Lever Arm STL](SLALeverArm8.STL)
+
+[Lever Assembly](SLALeverAssem3.SLDASM)
+
 
 ### Resources
 
+Machinery's Handbook 32nd Edition
+
+[One Common Failure for SLA: The Material Deformation](https://facfox.com/docs/kb/one-common-failure-for-sla-the-material-deformation)
+
+[Getting Perfectly Crisp and Dimensionally Accurate 3D Prints on a Resin Printer: Fighting Resin Shrinkage and Exposure Bleeding](https://blog.honzamrazek.cz/2022/06/getting-perfectly-crisp-and-dimensionally-accurate-3d-prints-on-a-resin-printer-fighting-resin-shrinkage-and-exposure-bleeding/)
+
+[Warping (SLA)](https://formlabs.com/support/Warping-SLA/)
