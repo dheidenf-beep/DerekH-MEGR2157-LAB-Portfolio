@@ -33,6 +33,8 @@ After determining which parameter to solve for, I ended up using the top strain 
 
 
 
+SLA Resin can affect the allowable deflection and overall geometry due to how the resin is printed and the material properties. The material properties change with different curing rates and temperatures, affecting flexibility and stiffness. Part orientation due to SLA printing in layers. Depending if the force is applied parallel or perpendicular to the layers can affect how the part will need to be designed and printed.
+
 ## CAD Design
 
 For the design of the CAD model, I first started by laying out my equations to make the model parametric. 
@@ -225,6 +227,21 @@ There are a couple mechanical differences between SLA and PLA (FDM) parts. A big
 
 ## Lessons learned
 
+* What challenges arose designing for resin flexibility and clearance?
+
+It was challenging to figure out the uniform clearance and where to apply it. I ended up being very liberal with applying the clearance everywhere to ensure there would be no issues with the parts not being able to go together after the issues I had with the last lab.
+
+* What did you learn about SLA tolerances and print orientation?
+
+SLA tolerances tend to be more loose than other tolerances due to how resin expands after curing. Print orientation is important for ensuring there are no suction forces or pockets of trapped resin. 
+
+* How do SLA snap fits differ from FDM snap fits?
+
+SLA snapfits have a different material with different properties that can change throughout the curing process. This necessitates more careful consideration of the parameters used in the calculations while FDM snapfits don't change much after printing.
+
+* Comment on cost, time, and resources used from start to finish.
+
+SLA prints take more time, cost slightly more, and uses a lot more steps than FDM printing. However, it does allow SLA printers to reach greater levels precision and detail. SLA Prints are definitely more suited to smaller scale, more detailed parts due to the cost and time it takes to print something.
 
 
 ## Resources
