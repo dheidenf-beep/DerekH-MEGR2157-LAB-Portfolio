@@ -244,6 +244,7 @@ SLA snapfits have a different material with different properties that can change
 
 SLA prints take more time, cost slightly more, and uses a lot more steps than FDM printing. However, it does allow SLA printers to reach greater levels precision and detail. SLA Prints are definitely more suited to smaller scale, more detailed parts due to the cost and time it takes to print something.
 
+**Time Spent:** 8 Hours
 
 ## Resources
 
