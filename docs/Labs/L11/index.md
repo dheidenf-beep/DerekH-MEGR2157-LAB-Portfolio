@@ -246,6 +246,12 @@ SLA prints take more time, cost slightly more, and uses a lot more steps than FD
 
 **Time Spent:** 8 Hours
 
+### CAD File Download
+
+[Snapfit Base Download](SLASnapfitBase2.SLDPRT)
+
+[Snapfit Enclosure Download](SLASnapfitCap.SLDPRT)
+
 ## Resources
 
 [Plastic_Snap_fit_design.pdf](https://github.com/user-attachments/files/34612662/Plastic_Snap_fit_design.pdf)\
