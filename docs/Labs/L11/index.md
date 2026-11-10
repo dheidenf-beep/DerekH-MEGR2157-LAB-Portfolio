@@ -30,8 +30,9 @@ I used the equations for cantilever snapfits from the "Snapfit Design Guide" pro
 
 After determining which parameter to solve for, I ended up using the top strain equation and plugging it into the bottom equation to find the needed length for my desired deflection of 2 mm. The 2 mm deflection came from the wall thickness. 
 
+<img width="1275" height="1615" alt="A11SLASnapfitWork_page-0001" src="https://github.com/user-attachments/assets/3ff05294-f29e-44c5-8f26-1df786dadda4" />
 
-
+I plugged this into Solidworks to derive the numerical length.
 
 SLA Resin can affect the allowable deflection and overall geometry due to how the resin is printed and the material properties. The material properties change with different curing rates and temperatures, affecting flexibility and stiffness. Part orientation due to SLA printing in layers. Depending if the force is applied parallel or perpendicular to the layers can affect how the part will need to be designed and printed.
 
@@ -248,15 +249,16 @@ SLA prints take more time, cost slightly more, and uses a lot more steps than FD
 
 [Plastic_Snap_fit_design.pdf](https://github.com/user-attachments/files/34612662/Plastic_Snap_fit_design.pdf)\
 
+[Snap Fit Joint Design: Types, Applications, Advantages, and Disadvantages](https://www.xometry.com/resources/machining/snap-fit-joint-design/)
 
-https://www.xometry.com/resources/machining/snap-fit-joint-design/
+[How to Design and 3D Print Snap-Fit Joints for Enclosures, Boxes, Lids, and More](https://formlabs.com/blog/designing-3d-printed-snap-fit-enclosures/)
 
-https://formlabs.com/blog/designing-3d-printed-snap-fit-enclosures/
+[How to design parts for SLA 3D printing](https://www.hubs.com/knowledge-base/how-design-parts-sla-3d-printing/)
 
-https://www.hubs.com/knowledge-base/how-design-parts-sla-3d-printing/
+[Unveiling Resin – 3D Printing Materials Detailed & Compared](https://qmolding.com/resin-3d-printing-materials/)
 
-https://qmolding.com/resin-3d-printing-materials/
+[3D Print Interlocking Parts: Design Interlocking Joints Guideline](https://qmolding.com/3d-printing-interlocking-parts/)
 
-https://qmolding.com/3d-printing-interlocking-parts/
+[Grey Resin V5](https://dental-media.formlabs.com/datasheets/2401898-TDS-ENUS-0.pdf)
 
 
