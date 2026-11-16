@@ -1,4 +1,4 @@
-# Final Project – Cable Spooler 
+# Final Project – Cable Manager
 
 ## Objectives
 
@@ -10,7 +10,11 @@ The objective of the final project is to determine a real problem to solve and t
 
 ### FDM Anisotropic
 
+Standard Fusion Deposition Modeling parts are inherently anisotropic due to the fact that the parts are printed in layers. Anisotropic parts are described as parts have properties that differ depending on direction or orientation. FDM parts are anisotropic parts due to the layered construction method. The presence of layers changes how the plastic withstands stress and deformation depending on the orientation of the force to the seams. The printed layers are stronger than the seams connecting since the plastic is all one melted and fused piece. FDM parts have higher strength when the force is parallel to the layers instead of perpendicular which pulls on the seams.
+
 ### SLA Shrinkage
+
+
 
 ### Laser Cutting Kerf
 
