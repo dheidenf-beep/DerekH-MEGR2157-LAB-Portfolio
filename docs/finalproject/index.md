@@ -89,6 +89,8 @@ My next idea was to create a simple 3D printed holder with slots for the wires t
 
 The CAD model was fairly straightforward. I started by defining my equations and creating a side profile to extrude.
 
+<img width="586" height="217" alt="CableHolderEqns" src="https://github.com/user-attachments/assets/48912e2b-36ba-4838-905c-f70333aa0900" />
+
 <img width="960" height="564" alt="CableHolderPic (2)" src="https://github.com/user-attachments/assets/4a81d05b-24a6-4880-9f8a-55aa27646845" />
 
 <img width="960" height="564" alt="CableHolderPic (3)" src="https://github.com/user-attachments/assets/44e905f6-4c9a-43b5-8fcc-ed5887a1a25f" />
@@ -151,7 +153,40 @@ The print came out well, the only trouble I had was with removing the immense am
 
 #### Laser Cutting
 
+For the laser cutting, I first printed the fit coupon to determine the best clearance to get a reasonably tight fit. The wood was cut using the standard parameters for 3 mm thick wood. These parameters were 20% speed, 100% power, and 20% frequency.
 
+<img width="796" height="584" alt="CableHolderPic (22)" src="https://github.com/user-attachments/assets/2e8c9189-59cc-4700-a25f-2aac90027f34" />
+
+<img width="4000" height="3000" alt="CableHolderActPic (15)" src="https://github.com/user-attachments/assets/6b7e9127-b171-4093-974a-a4505642d952" />
+
+<img width="4000" height="3000" alt="CableHolderActPic (16)" src="https://github.com/user-attachments/assets/048c1b1c-8423-4bae-ba09-d3a768654062" />
+
+<img width="3000" height="4000" alt="CableHolderActPic (18)" src="https://github.com/user-attachments/assets/3fe654b9-c707-4e56-88a0-fd9bc4ec7017" />
+
+The clearance that seemed to give the best fit was -0.3mm clearance. So I applied this to the wood stands and laser cut them out. 
+
+<img width="960" height="564" alt="CableHolderPic (23)" src="https://github.com/user-attachments/assets/c9324c44-8749-441c-a65e-71a91262176b" />
+
+<img width="960" height="564" alt="CableHolderPic (24)" src="https://github.com/user-attachments/assets/1882c7d1-9620-4108-94c2-a8bf3c618655" />
+
+<img width="960" height="564" alt="CableHolderPic (25)" src="https://github.com/user-attachments/assets/ebe98b9a-772e-4800-b2b5-55d4b5569b02" />
+
+<img width="4000" height="3000" alt="CableHolderActPic (19)" src="https://github.com/user-attachments/assets/2dad6ebf-4ba1-49ec-a4e5-48d33af2cbe3" />
+
+<img width="4000" height="3000" alt="CableHolderActPic (20)" src="https://github.com/user-attachments/assets/53fb5a57-ce64-4a37-8359-4292b1234a19" />
+
+
+### Prototype Evaluation
+
+The prototype ended up being smaller than I anticipated, which seems to happen quite a lot. This made it unable to reach the wall across the gap between my desk and the wall. However, if you do put it up against something like a book, the concept is there, although the slots for the wires could also be larger.
+
+<img width="3000" height="4000" alt="CableHolderActPic (21)" src="https://github.com/user-attachments/assets/db57b31f-849e-4984-8389-2412b859238a" />
+
+The fits that came out on the wood stands were still a tad loose, meaning -0.4 mm of clearance would likely be better for the fit.
+
+<img width="4000" height="3000" alt="CableHolderActPic (23)" src="https://github.com/user-attachments/assets/58bbc237-56ca-4b93-ab99-11fc2faf1fe5" />
+
+Overall, the concept is there but it could definitely use improving for the final design.
 
 
 ### Part 1 Problem Presentation
