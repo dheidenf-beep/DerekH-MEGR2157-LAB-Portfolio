@@ -191,7 +191,7 @@ Overall, the concept is there but it could definitely use improving for the fina
 
 ### Part 1 Problem Presentation
 
-
+[![Final Project Problem Presentation](https://youtube.com)](https://youtube.com/shorts/OiNjsAemug4?feature=share)
 
 
 ## Part 2
