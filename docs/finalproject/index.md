@@ -191,8 +191,19 @@ Overall, the concept is there but it could definitely use improving for the fina
 
 ### Part 1 Problem Presentation
 
-[![Final Project Problem Presentation](https://youtube.com)](https://youtube.com/shorts/OiNjsAemug4?feature=share)
-
 [![Final Project Problem Presentation](http://img.youtube.com/vi/OiNjsAemug4/0.jpg)](http://www.youtube.com/watch?v=OiNjsAemug4)
 
 ## Part 2
+
+
+## Resources
+
+[Spiral Model in Software Engineering](https://www.geeksforgeeks.org/software-engineering/software-engineering-spiral-model/)
+
+[Anisotropic](https://www.sciencedirect.com/topics/engineering/anisotropic)
+
+[How Accurate is SLA 3D Printing? A Technical Look at Tolerances](https://sgd3d.co.uk/3d-printing/sla-3d-printing-accuracy-tolerances/)
+
+[Understanding Kerf and Kerf Offset](https://www.thunderlaserusa.com/knowledge/understanding-kerf-and-kerf-offset)
+
+[Design for Laser Cutting](https://making.stanford.edu/resources/process-guides/laser-cutting/design-laser-cutting)
