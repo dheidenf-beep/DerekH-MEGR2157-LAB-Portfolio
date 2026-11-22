@@ -55,6 +55,9 @@ For my first idea, I wanted to create a stationary spool that would be able to w
 
 So, instead, I came up with something simpler. The design would be a simple wire holder that would rest on the desk with multiple slots for several wires. The design would utilize FDM printing for the upper portion to hold the wires and a larger base laser cut out of wood that would rest against the wall or something else to prevent the whole build from sliding off the desk due to the weight of the wires, since the FDM and wood parts aren't very heavy. 
 
+<img width="1275" height="1549" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0007" src="https://github.com/user-attachments/assets/c5934f43-f3a6-4e97-8ebd-b2349eb15590" />
+
+
 ### Prototype CAD Design
 
 #### Cable Measurements
@@ -194,6 +197,56 @@ Overall, the concept is there but it could definitely use improving for the fina
 [![Final Project Problem Presentation](http://img.youtube.com/vi/OiNjsAemug4/0.jpg)](http://www.youtube.com/watch?v=OiNjsAemug4)
 
 ## Part 2
+
+### Classmate Feedback
+
+Below are the filled out feedback forms from my classmates:
+
+<img width="1262" height="1650" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0001" src="https://github.com/user-attachments/assets/53e42a5b-4975-4713-b68e-2ce5ef2ebc51" />
+
+<img width="1275" height="1606" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0002" src="https://github.com/user-attachments/assets/42da9749-bcbd-461e-abe0-518618088792" />
+
+<img width="1238" height="1650" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0003" src="https://github.com/user-attachments/assets/096bb209-afb3-43e0-bc50-75ce21257401" />
+
+<img width="1248" height="1650" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0004" src="https://github.com/user-attachments/assets/0179f59c-e91f-4f26-8290-f50d460c68b5" />
+
+<img width="1238" height="1650" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0005" src="https://github.com/user-attachments/assets/31ce120f-8439-4a0f-8c26-e3f27432e5f7" />
+
+<img width="1241" height="1650" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0006" src="https://github.com/user-attachments/assets/1f8c703d-6cb7-42be-9104-13399733776d" />
+
+The primary feedback I received was on the ability of the stand to hold the wires, which wasn't great. Since the concept was that the wires would Ideally stay within the channels of the holder so that once the user was done using the wire, it would fall back into the channel and wouldn't fall onto the floor. The suggestion and solutions I was given was to maybe try and make a snapfit the would keep the wires from coming out or create something that would snap onto the wire itself and would hook are attach onto the holder to prevent the wire from coming out. 
+
+I also received feedback on how to fit in multiple sized wires. Currently, the stand was designed around one size of USB-C wire, which makes the use cases for it more specific with a lesser ability of being used generally. 
+
+The last bit of feedback I received was on the stability, which was already an issue. The prototype was so small and light that the wires would just pull the stand down, which obviously isn't helpful when trying to create a wire holder to keep wires off of the floor. Since the manufacturing options I have access all use very light materials, the two options I am really left with are 1: using another non-manufactured component such as tape, Dual Lock, or just a weight or 2: try and increase the size of the base to achieve the original idea of having the base rest against the wall. I figured the tape or Dual Lock ideally would probably be the easiest solution by just creating a more solid wood base for the stand but I decided to also try increasing the size to see if I could get it to rest against the wall.
+
+
+### Design Revision
+
+With the feedback acquired, I went back into Solidworks to start improving the design. I started by increasing all of the dimensions to make the whole stand bigger.
+
+| Before | After |
+|------|----|
+| <img width="593" height="397" alt="CableRevisionScrnSt (1)" src="https://github.com/user-attachments/assets/12792495-e160-4779-bd0b-4109cff72bd9" /> | <img width="593" height="397" alt="CableRevisionScrnSt (2)" src="https://github.com/user-attachments/assets/26fc5bb4-1ab4-4b92-8d6e-6c8bcf70be2f" /> |
+
+<img width="960" height="564" alt="CableRevisionScrnSt (3)" src="https://github.com/user-attachments/assets/eac6a2cc-2c18-4c42-9d22-4811999b8a58" />
+
+Needed to edit the holes and the spacing a bit. I also played around a lot with the depth (height?) of the holes to try and get something I thought was reasonable. 
+
+<img width="960" height="564" alt="CableRevisionScrnSt (4)" src="https://github.com/user-attachments/assets/d254fde4-13e8-4bb7-b1eb-5f0fab50073c" />
+
+To solve the issue of the wires coming out of the holes, I created a separate part that would press fit onto the top of the cable holder to lock the wires in. 
+
+<img width="960" height="564" alt="CableRevisionScrnSt (8)" src="https://github.com/user-attachments/assets/a3d063e9-1f78-45e3-83e8-a6224ed9282c" />
+
+<img width="960" height="564" alt="CableRevisionScrnSt (6)" src="https://github.com/user-attachments/assets/58f0c9bb-91c6-4fca-807f-26bc581b9754" />
+
+<img width="960" height="564" alt="CableRevisionScrnSt (7)" src="https://github.com/user-attachments/assets/81dd450c-1af6-4f14-b966-236ab176a797" />
+
+I ended up making it hollow so it would be able to slide down as far as the user wanted it to lock the wires in place.
+
+
+
 
 
 ## Resources
