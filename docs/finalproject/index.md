@@ -246,7 +246,7 @@ To solve the issue of the wires coming out of the holes, I created a separate pa
 
 I ended up making it hollow so it would be able to slide down as far as the user wanted it to lock the wires in place.
 
-For the wood supports, I lengthened the originals and created a now solid support with the two slots in it. I also decreased the hole tolerance to hopefully make the fit between the 3D part and Wood part tighter so they wouldn't come apart if you just picked it up.
+For the wood supports, I lengthened the originals and created a now solid support with the two slots in it. The solid support would be easier to attach adhesives to, which would be one of the primary methods of keeping it in place because I couldn't come up with a better solution. I also decreased the hole tolerance to hopefully make the fit between the 3D part and Wood part tighter so they wouldn't come apart if you just picked it up.
 
 <img width="960" height="564" alt="CableRevisionScrnSt (10)" src="https://github.com/user-attachments/assets/37396893-19cb-4262-96c9-2c2cc807d9cf" />
 
@@ -277,7 +277,42 @@ The print turned out well with no notable issues and the fit worked out really w
 
 #### Laser Cutting
 
+The laser cutting for the improved design of the cable holder was also much of the same. I downloaded the CAD files as dxf files to load into Inkscape to then print using the Epilogue software. I ended up cutting 5 parts. The first part was the square base, then 2 legs both 100 mm long, then 2 more legs that were 150 mm long. I wanted to test setting the cable holder against the wall still to see if that was practical for not needing adhesives so I went ahead and cut out the extra pieces.
 
+The wood was cut using the standard parameters for 3 mm thick wood. These parameters were 20% speed, 100% power, and 20% frequency. The cuts in total took around a minute.
+
+<img width="960" height="564" alt="CableRevisionScrnSt (20)" src="https://github.com/user-attachments/assets/f7020ba0-a745-4546-aabf-f439bf658a6d" />
+
+<img width="960" height="564" alt="CableRevisionScrnSt (21)" src="https://github.com/user-attachments/assets/03c46cd8-9ede-4946-8632-8b8935c5f9bf" />
+
+<img width="4000" height="3000" alt="CableHolderRevisionPic (9)" src="https://github.com/user-attachments/assets/36ff428c-58ee-48af-8e0a-ab4b4eb10663" />
+
+<img width="4000" height="3000" alt="CableHolderRevisionPic (10)" src="https://github.com/user-attachments/assets/e922d7c2-f04c-4283-80a0-04045b23f74e" />
+
+<img width="4000" height="3000" alt="CableHolderRevisionPic (20)" src="https://github.com/user-attachments/assets/9d4da076-5a18-47c6-95fe-1ec5f058a489" />
+
+<img width="4000" height="3000" alt="CableHolderRevisionPic (14)" src="https://github.com/user-attachments/assets/7f22ffa3-35a5-491d-8dc3-a6f2159a372c" />
+
+<img width="4000" height="3000" alt="CableHolderRevisionPic (16)" src="https://github.com/user-attachments/assets/47ac8ca4-f906-463a-82ec-3732ef07823d" />
+
+<img width="4000" height="3000" alt="CableHolderRevisionPic (13)" src="https://github.com/user-attachments/assets/9ca0e175-bfb8-4664-b78f-4f6b68f91f25" />
+
+<img width="3000" height="4000" alt="CableHolderRevisionPic (21)" src="https://github.com/user-attachments/assets/1a3f04a7-e02e-419e-9838-1fa26228eb79" />
+
+<img width="4000" height="3000" alt="CableHolderRevisionPic (24)" src="https://github.com/user-attachments/assets/4bedd44f-493d-467e-9465-12706ab1d32a" />
+
+Overall, the cuts turned out well. The clearances worked out really well for the slots. The main concern I had was if I did the math on spacing the holes on the square piece correctly, which it seems I did. The more sung fits made the whole cable holder much more solid and you could actually pick up the whole thing as one piece and move it around without needing to worry about the wood legs falling out. I did notice with some of the cuts that the laser would sometimes cut the outline of the supports before cutting out the slots which could make the pieces fall down if the wood wasn't perfectly flat. I wonder if that may have been why my tolerances felt inconsistent for some of the wood parts.
+
+### Improved Cable Holder Evaluation
+
+
+### Part 2 Problem Presentation
+
+#### Video Presentation
+
+
+
+#### Slideshow Presentation
 
 
 
