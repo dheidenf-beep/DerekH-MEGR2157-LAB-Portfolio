@@ -202,17 +202,11 @@ Overall, the concept is there but it could definitely use improving for the fina
 
 Below are the filled out feedback forms from my classmates:
 
-<img width="1262" height="1650" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0001" src="https://github.com/user-attachments/assets/53e42a5b-4975-4713-b68e-2ce5ef2ebc51" />
+| Noah | Mohammad | Brayan |
+|--------|-----|----|
+| <img width="1262" height="1650" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0001" src="https://github.com/user-attachments/assets/53e42a5b-4975-4713-b68e-2ce5ef2ebc51" /> | <img width="1238" height="1650" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0003" src="https://github.com/user-attachments/assets/096bb209-afb3-43e0-bc50-75ce21257401" /> |<img width="1238" height="1650" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0005" src="https://github.com/user-attachments/assets/31ce120f-8439-4a0f-8c26-e3f27432e5f7" /> |
+| <img width="1275" height="1606" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0002" src="https://github.com/user-attachments/assets/42da9749-bcbd-461e-abe0-518618088792" /> | <img width="1248" height="1650" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0004" src="https://github.com/user-attachments/assets/0179f59c-e91f-4f26-8290-f50d460c68b5" /> | <img width="1241" height="1650" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0006" src="https://github.com/user-attachments/assets/1f8c703d-6cb7-42be-9104-13399733776d" /> |
 
-<img width="1275" height="1606" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0002" src="https://github.com/user-attachments/assets/42da9749-bcbd-461e-abe0-518618088792" />
-
-<img width="1238" height="1650" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0003" src="https://github.com/user-attachments/assets/096bb209-afb3-43e0-bc50-75ce21257401" />
-
-<img width="1248" height="1650" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0004" src="https://github.com/user-attachments/assets/0179f59c-e91f-4f26-8290-f50d460c68b5" />
-
-<img width="1238" height="1650" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0005" src="https://github.com/user-attachments/assets/31ce120f-8439-4a0f-8c26-e3f27432e5f7" />
-
-<img width="1241" height="1650" alt="MEGR-2157-L3D-FinalProjectWrittenPapers_page-0006" src="https://github.com/user-attachments/assets/1f8c703d-6cb7-42be-9104-13399733776d" />
 
 The primary feedback I received was on the ability of the stand to hold the wires, which wasn't great. Since the concept was that the wires would Ideally stay within the channels of the holder so that once the user was done using the wire, it would fall back into the channel and wouldn't fall onto the floor. The suggestion and solutions I was given was to maybe try and make a snapfit the would keep the wires from coming out or create something that would snap onto the wire itself and would hook are attach onto the holder to prevent the wire from coming out. 
 
@@ -235,6 +229,13 @@ Needed to edit the holes and the spacing a bit. I also played around a lot with 
 
 <img width="960" height="564" alt="CableRevisionScrnSt (4)" src="https://github.com/user-attachments/assets/d254fde4-13e8-4bb7-b1eb-5f0fab50073c" />
 
+To try and expand the type of wires the holder could support, I made the tops of the slots wider. The thought process was, if there was a longer wire, it would just rest on the angled sections. Smaller wires would fall down further thus allowing it to hold different sizes of wires.
+
+<img width="960" height="564" alt="CableRevisionScrnSt (17)" src="https://github.com/user-attachments/assets/8ad8b39a-8f66-47e3-80ab-237423f379e3" />
+
+<img width="960" height="564" alt="CableRevisionScrnSt (18)" src="https://github.com/user-attachments/assets/eb88d632-fd34-493b-913d-54aeda68d779" />
+
+
 To solve the issue of the wires coming out of the holes, I created a separate part that would press fit onto the top of the cable holder to lock the wires in. 
 
 <img width="960" height="564" alt="CableRevisionScrnSt (8)" src="https://github.com/user-attachments/assets/a3d063e9-1f78-45e3-83e8-a6224ed9282c" />
@@ -244,6 +245,37 @@ To solve the issue of the wires coming out of the holes, I created a separate pa
 <img width="960" height="564" alt="CableRevisionScrnSt (7)" src="https://github.com/user-attachments/assets/81dd450c-1af6-4f14-b966-236ab176a797" />
 
 I ended up making it hollow so it would be able to slide down as far as the user wanted it to lock the wires in place.
+
+For the wood supports, I lengthened the originals and created a now solid support with the two slots in it. I also decreased the hole tolerance to hopefully make the fit between the 3D part and Wood part tighter so they wouldn't come apart if you just picked it up.
+
+<img width="960" height="564" alt="CableRevisionScrnSt (10)" src="https://github.com/user-attachments/assets/37396893-19cb-4262-96c9-2c2cc807d9cf" />
+
+<img width="960" height="564" alt="CableRevisionScrnSt (12)" src="https://github.com/user-attachments/assets/dd19ab0f-3581-4021-bb3c-766278dbdc57" />
+
+Looking at the parts put together in an assembly gave me an idea of how the final product would look.
+
+<img width="960" height="564" alt="CableRevisionScrnSt (11)" src="https://github.com/user-attachments/assets/88222a2e-c8bb-4ea1-afde-823ab5e1158d" />
+
+<img width="960" height="564" alt="CableRevisionScrnSt (26)" src="https://github.com/user-attachments/assets/5cb8eb6d-b23d-4ac1-a9a0-106721e29ff9" />
+
+
+### Improved Cable Holder Manufacturing
+
+#### 3D FDM Printing
+
+The manufacturing for the second iteration was much the same. I used the same parameters for the 3D printed parts, that being triangle infill at 20% with organic supports on the .20 mm "Structural" preset since I was dealing with thin pieces. The parts were printed together on printer 16 in the Duke Centennial Makerspace. The print took about 47 minutes and 11 grams of PLA filament.
+
+<img width="960" height="564" alt="CableRevisionScrnSt (19)" src="https://github.com/user-attachments/assets/310930cf-564d-48c9-9377-d60a8152135d" />
+
+<img width="4000" height="3000" alt="CableHolderRevisionPic (2)" src="https://github.com/user-attachments/assets/017d2332-3774-4fcc-bd2b-b33bc59a889e" />
+
+<img width="4000" height="3000" alt="CableHolderRevisionPic (5)" src="https://github.com/user-attachments/assets/83936788-73a4-4b29-904e-9abdb7786815" />
+
+<img width="4000" height="3000" alt="CableHolderRevisionPic (7)" src="https://github.com/user-attachments/assets/76755abe-5492-447d-8912-11989661bbfa" />
+
+The print turned out well with no notable issues and the fit worked out really well. The Cable holder sliding piece was able to move but had a decent amount of friction, which was what I was aiming for. This meant I didn't need to create any more tests.
+
+#### Laser Cutting
 
 
 
