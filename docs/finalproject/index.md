@@ -305,15 +305,23 @@ Overall, the cuts turned out well. The clearances worked out really well for the
 
 ### Improved Cable Holder Evaluation
 
+Overall, the second iteration is certainly a huge improvement over the first. The deeper slots for the wires along with the piece that slides on and keeps the wires in the slot makes it significantly more user friendly and less annoying to deal with. The larger base for applying an adhesive is a big improvement as well since now there is just a huge surface to stick things to. The other base legs did work as well. Once I made the legs long enough to reach the wall, it did prevent the holder from falling backwards. However, it did not prevent the holder from sliding forward when a cable is pulled on. The only major issue I found was that once the cords were pulled out a certain distance, the weight of the cords alone was not enough to pull them back through the holder, so you do need to lead the wires through a bit. A solution to this would be to create separate weight pieces that hooks onto the wires and pull them back down. But that issue is for another iteration. As it stands, I am satisfied with the final prototype and the versatility I managed to fit into a relatively small package.
+
 
 ### Part 2 Problem Presentation
 
 #### Video Presentation
 
+[![Final Project Solution Presentation](http://img.youtube.com/vi/y1aMWVJkrLI/0.jpg)](http://www.youtube.com/watch?v=y1aMWVJkrLI)
 
 
 #### Slideshow Presentation
 
+<iframe src="MEGR-2157-L3D Final Prototype Presentation.pdf" width="100%" height="650px" type="application/pdf">
+  <p>Your browser does not support PDFs. <a href="A02-Truss-weight-calc.pdf">Download the PDF</a>.</p>
+</iframe>
+
+[Slideshow Presentation Link](https://docs.google.com/presentation/d/1IcQWB-uBZDjbOWeTnfnk1shMjMiL90BVJMwUOpW_FZ4/edit?usp=sharing)
 
 
 ## Resources
