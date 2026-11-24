@@ -317,7 +317,7 @@ Overall, the second iteration is certainly a huge improvement over the first. Th
 
 #### Slideshow Presentation
 
-<iframe src="MEGR-2157-L3D-Final-Prototype-Presentation.pdf" width="100%" height="500px" type="application/pdf">
+<iframe src="MEGR-2157-L3D-Final-Prototype-Presentation-2.pdf" width="100%" height="500px" type="application/pdf">
   <p>Your browser does not support PDFs. <a href="A02-Truss-weight-calc.pdf">Download the PDF</a>.</p>
 </iframe>
 
