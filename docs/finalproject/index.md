@@ -317,11 +317,23 @@ Overall, the second iteration is certainly a huge improvement over the first. Th
 
 #### Slideshow Presentation
 
-<iframe src="MEGR-2157-L3D-Final-Prototype-Presentation.pdf" width="100%" height="650px" type="application/pdf">
+<iframe src="MEGR-2157-L3D-Final-Prototype-Presentation.pdf" width="100%" height="500px" type="application/pdf">
   <p>Your browser does not support PDFs. <a href="A02-Truss-weight-calc.pdf">Download the PDF</a>.</p>
 </iframe>
 
 [Slideshow Presentation Link](https://docs.google.com/presentation/d/1IcQWB-uBZDjbOWeTnfnk1shMjMiL90BVJMwUOpW_FZ4/edit?usp=sharing)
+
+### CAD File Downloads
+
+**All the Downloads are for the Final Iteration.**
+
+[Cable Holder Body](Cableholder3.SLDPRT)
+
+[Cable Holder Cap](CableHolderCap1.SLDPRT)
+
+[Square Wood Stand](Woodstand3.SLDPRT)
+
+[Long Wood Stand Parts](Woodstand2-2.SLDPRT)
 
 
 ## Resources
